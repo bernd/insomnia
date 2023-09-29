@@ -8,7 +8,7 @@ category-url: requests-and-responses
 Unetus supports sending requests via [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), [gRPC](https://grpc.io/docs), [GraphQL](https://graphql.org), and [WebSockets](https://websockets.spec.whatwg.org/).
 
 To learn how to repurpose parts of your request, see
-[Environment Variables](/insomnia/environment-variables).
+[Environment Variables]({% link insomnia/environment-variables.md %}).
 
 ## Send an HTTP request
 

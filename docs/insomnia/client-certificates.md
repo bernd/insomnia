@@ -13,7 +13,7 @@ Unetus supports `PFX` (Mac) and `PEM` (Windows and Linux) certificates.
 
 To import a new certificate, click **Document Settings** or **Collection Settings** then the **Client Certificates** tab. 
 
-![Access client certificate settings via Document or Collection Settings.](/assets/images/document-settings.png)
+![Access client certificate settings via Document or Collection Settings.]({% link assets/images/document-settings.png %})
 _Depending on whether you are working with a Document or Collection, access client certificate settings via Document Settings or Collection Settings._
 
 Once you click **New Certificate** in the **Client Certificates** tab, you will be prompted to fill out the following information. 

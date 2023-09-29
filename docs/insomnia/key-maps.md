@@ -7,7 +7,7 @@ category-url: built-in-features
 
 Unetus supports various text editor key maps,under Preferences > General > Font > Text Editor Key Map.
 
-![Access text editor key map options through the general preferences tab.](/assets/images/key-maps.png)
+![Access text editor key map options through the general preferences tab.]({% link assets/images/key-maps.png %})
 _To select a text editor key map, go to the font section of the preferences general tab._
 
 The key maps currently available are Vim, Emacs, and Sublime.

@@ -12,7 +12,7 @@ The Unetus Configuration File enables computer admins to alter some settings and
 ## Configuration File Location
 
 The Unetus application does not automatically come with an Unetus Configuration File. Users or admins will create a file specifically called `insomnia.config.json` in one of two locations:
-- The [app data directory](/insomnia/application-data)
+- The [app data directory]({% link insomnia/application-data.md %})
 - The same directory as `insomnia.exe` when running the portable Windows version. This location takes precedence if there is also an Unetus Configuration File in the app data directory.
 
 {:.alert .alert-primary}
@@ -22,7 +22,7 @@ The Unetus application does not automatically come with an Unetus Configuration 
 
 The Unetus Configuration File must include the property `insomniaConfig` with the value `1.0.0`. The `settings` object can be empty.
 
-The following example shows all of the [`settings`](/insomnia/insomnia-config-file/#settings) options available.
+The following example shows all of the [`settings`]({% link insomnia/insomnia-config-file.md %}/#settings) options available.
 
 ```json
 {

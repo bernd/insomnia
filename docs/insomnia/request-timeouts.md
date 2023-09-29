@@ -7,7 +7,7 @@ category-url: requests-and-responses
 
 An HTTP request timeout can be specified globally in preferences.
 
-![From preferences, update your HTTP request timeout settings.](/assets/images/request-timeouts.png)
+![From preferences, update your HTTP request timeout settings.]({% link assets/images/request-timeouts.png %})
 
 _Set and change HTTP request timeout options in preferences._
 

@@ -101,7 +101,7 @@ expect(item).to.have.property('id');
 
 ### Chain Requests
 
-Refer to [Chaining Requests](/insomnia/chaining-requests) and select the chained request from the **Select Request** dropdown.
+Refer to [Chaining Requests]({% link insomnia/chaining-requests.md %}) and select the chained request from the **Select Request** dropdown.
 
 ### Change Request Values
 
@@ -109,7 +109,7 @@ Alter request values in the **Debug** tab.
 
 ### Debug a Unit Test
 
-1. Open [DevTools](/insomnia/introduction-to-plugins#debug-in-the-insomnia-app).
+1. Open [DevTools]({% link insomnia/introduction-to-plugins.md %}#debug-in-the-insomnia-app).
 1. Open the **console** tab. It should be open by default.
 
 You can now `console.log` values in your unit test to the console.

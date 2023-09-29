@@ -12,7 +12,7 @@
           {% for entry in item.items %}
             {% assign currentEntry = entry.url | append: '/' %}
             <li class="doc-link ps-3 pb-1 text-start {% if currentEntry == page.url %} list-active {% endif %}">
-              <a href="{{ entry.url }}">
+              <a href="{{ site.baseurl }}{{ entry.url }}">
                 {{ entry.title }}
               </a>
               {% if entry.subfolderitems.size > 0 %}

@@ -9,21 +9,21 @@ Linting is built into Unetus for Design Documents. As you type, Unetus validates
 
 The Linter Panel aggregates all errors and warnings from the spec into a centralized location so it’s easier to get an overall sense of what’s going wrong without scrolling through and checking each individual line.
 
-![The linting errors appear in a box below the editor.](/assets/images/linting-errors.png)
+![The linting errors appear in a box below the editor.]({% link assets/images/linting-errors.png %})
 _Errors are displayed next to the applicable code line, and in the Linter Panel below the editor._
 
 
 ## Custom Linting
 To use a custom linting ruleset in the Unetus Design Editor, add the spectral .yaml file to the root of the collection git repository.  It should be at the same level as the .insomnia folder.
 
-![Instructions for Adding Custom Rule Set](/assets/images/custom-linting.png)
+![Instructions for Adding Custom Rule Set]({% link assets/images/custom-linting.png %})
 
 
 Once the custom ruleset file is added to the repo, commit it to the synced repo and make sure your Unetus Editor is on the latest changes and on the branch that contains the file.  
 
 To see the ruleset file begin to be used, you can restart the Unetus App, or exit out of the workspace and enter again.  Now the Unetus Design editor should use the custom ruleset for linting.
 
-![Example of Custom Linting Violation](/assets/images/custom-linting-violation.png)
+![Example of Custom Linting Violation]({% link assets/images/custom-linting-violation.png %})
 
 
 ### Adding Remote Link or NPM Modules for Custom Linting

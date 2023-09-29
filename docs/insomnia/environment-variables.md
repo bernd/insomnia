@@ -7,14 +7,14 @@ category-url: get-started
 
 Set up environment variables to reuse values across multiple requests. Common variables are base URLs, authentication tokens, and resource IDs.
 
-![Request using base URL and ID variables that can be reused.](/assets/images/env-variables.png)
+![Request using base URL and ID variables that can be reused.]({% link assets/images/env-variables.png %})
 _Request using base URL and ID variables that can be reused._
 
 ## Environment Basics
 
 An environment is a [JSON object](https://www.json.org/json-en.html) containing key-value pairs of the data you want to reference. Access the environment manager through the environment dropdown menu at the top of the sidebar. From here, you can edit the base environment, create sub environments, assign colors, and more. 
 
-![The Manage Environments modal allows you to access and edit your base and sub environments.](/assets/images/manage-envs.png)
+![The Manage Environments modal allows you to access and edit your base and sub environments.]({% link assets/images/manage-envs.png %})
 _The Manage Environments modal allows you to access and edit your base and sub environments._
 
 {:.alert .alert-primary}
@@ -27,7 +27,7 @@ Environment variables can be referenced in (almost) any text input within the Un
 1. Summon the autocomplete dropdown by pressing Control+Space
 2. Allow the autocomplete to show automatically as you type
 
-![After you have set environment variables, you can access the variables via autocomplete dropdown menu.](/assets/images/reference-env-variables.png)
+![After you have set environment variables, you can access the variables via autocomplete dropdown menu.]({% link assets/images/reference-env-variables.png %})
 _After you have set environment variables, you can access the variables via autocomplete dropdown menu._
 
 Once a variable is selected, it will be displayed with a colored placeholder. Clicking on the button will show a modal dialog for further editing.
@@ -60,7 +60,7 @@ For example, if a variable is defined in a base environment and in a sub environ
 ## Recursive Variables
 Environments can reference other variables, including variables defined within itself. This is especially useful for composing more complex variables such as the domain name in the following example.
 
-![Use variables within environment variable json configuration to reference other variables and minimize duplication.](/assets/images/recursive-variables.png)
+![Use variables within environment variable json configuration to reference other variables and minimize duplication.]({% link assets/images/recursive-variables.png %})
 _Use variables within environment variable json configuration to reference other variables and minimize hard-coded values._
 
 {:.alert .alert-primary}

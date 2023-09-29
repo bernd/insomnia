@@ -5,17 +5,17 @@ category: "Plugins"
 category-url: plugins
 ---
 
-Template tags are closely related to [Environment Variables](/insomnia/environment-variables/). The main difference between Template Tags and Environment Variables is that Template Tags act more like operations, and not variables.
+Template tags are closely related to [Environment Variables]({% link insomnia/environment-variables.md %}/). The main difference between Template Tags and Environment Variables is that Template Tags act more like operations, and not variables.
 
 Tags can do things like transform strings, generate random numbers, handle UUIDs, and create timestamps.
 
 ## Use Template Tags
 
-To insert a template tag, press CTRL+Space wherever [Environment Variables](/insomnia/environment-variables/) can be used. Template tags will appear below Environment Variables in the autocomplete list, and are marked with an `ƒ` symbol.
+To insert a template tag, press CTRL+Space wherever [Environment Variables]({% link insomnia/environment-variables.md %}/) can be used. Template tags will appear below Environment Variables in the autocomplete list, and are marked with an `ƒ` symbol.
 
 ## Custom Template Tags
 
-You may want to extend Unetus functionality with custom behaviors, and can do so by creating your custom template tag as an [Unetus plugin](/insomnia/introduction-to-plugins/). Once you've added your custom plugin to your Unetus application, the template tag will show up exactly as if it were a native Unetus tag.
+You may want to extend Unetus functionality with custom behaviors, and can do so by creating your custom template tag as an [Unetus plugin]({% link insomnia/introduction-to-plugins.md %}/). Once you've added your custom plugin to your Unetus application, the template tag will show up exactly as if it were a native Unetus tag.
 
 ## Response and Request Tags
 
@@ -23,7 +23,7 @@ Response and request tags enable you to reference values between and from respon
 
 ### The Response Tag
 
-Use a response tag to reference values from other responses, or [Request Chaining](/insomnia/chaining-requests).
+Use a response tag to reference values from other responses, or [Request Chaining]({% link insomnia/chaining-requests.md %}).
 
 This can be useful when including the ID of a created resource in a `GET` request right after creating it with a `POST` request. It's also useful when referencing a reusable login token from a response in an environment variable.
 

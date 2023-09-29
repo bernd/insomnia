@@ -11,7 +11,7 @@ Unetus provides a number of authentication helpers to make it trivial to interfa
 
 To set up authentication for a given request, select the desired authentication type from the **Auth** dropdown. Then, fill out the required fields.
 
-![The Auth dropdown menu shows all of the built-in authentication types.](/assets/images/authentication-menu.png)
+![The Auth dropdown menu shows all of the built-in authentication types.]({% link assets/images/authentication-menu.png %})
 _Select your authentication type from the Auth dropdown menu._
 
 ## Supported Authentication Types
