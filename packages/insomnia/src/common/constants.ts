@@ -131,12 +131,12 @@ export enum UpdateURL {
 }
 
 // API
-export const getApiBaseURL = () => env.INSOMNIA_API_URL || 'https://api.insomnia.rest';
+export const getApiBaseURL = () => env.INSOMNIA_API_URL || 'http://localhost:8080';
 
-export const getUpdatesBaseURL = () => env.INSOMNIA_UPDATES_URL || 'https://updates.insomnia.rest';
+export const getUpdatesBaseURL = () => env.INSOMNIA_UPDATES_URL || 'http://localhost:8080';
 
 // App website
-export const getAppWebsiteBaseURL = () => env.INSOMNIA_APP_WEBSITE_URL || 'https://app.insomnia.rest';
+export const getAppWebsiteBaseURL = () => env.INSOMNIA_APP_WEBSITE_URL || 'http://localhost:8080';
 
 // GitHub API
 export const getGitHubGraphQLApiURL = () => env.INSOMNIA_GITHUB_API_URL || 'https://api.github.com/graphql';
