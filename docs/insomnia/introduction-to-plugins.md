@@ -26,7 +26,7 @@ To disable an Unetus plugin, go to **Preferences**, represented by the cog icon 
 
 To remove an Unetus Plugin permanently, navigate to the following location on your machine and delete the plugin folder manually:
 
-* MacOS:   `~/Library/Application Support/Insomnia/plugins/` (escaped version: `~/Library/Application\ Support/Insomnia/plugins/`)
+* macOS:   `~/Library/Application Support/Insomnia/plugins/` (escaped version: `~/Library/Application\ Support/Insomnia/plugins/`)
 * Windows: `%APPDATA%\Insomnia\plugins\`
 * Linux:   `$XDG_CONFIG_HOME/Insomnia/plugins/` or `~/.config/Insomnia/plugins/`
 
@@ -40,7 +40,7 @@ An Unetus plugin is a NodeJS module that is placed in a specific directory that 
 
 In order for Unetus to recognize your plugin as an Unetus plugin, your files must live in the following locations:
 
-* MacOS:   `~/Library/Application Support/Insomnia/plugins/` (escaped version: `~/Library/Application\ Support/Insomnia/plugins/`)
+* macOS:   `~/Library/Application Support/Insomnia/plugins/` (escaped version: `~/Library/Application\ Support/Insomnia/plugins/`)
 * Windows: `%APPDATA%\Insomnia\plugins\`
 * Linux:   `$XDG_CONFIG_HOME/Insomnia/plugins/` or `~/.config/Insomnia/plugins/`
 
