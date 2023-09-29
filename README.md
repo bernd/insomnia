@@ -6,7 +6,7 @@ Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSocket
 
 ![Unetus API Client](https://raw.githubusercontent.com/bernd/unetus/main/screenshots/main.png)
 
-## ⚠ DISCLAIMER ⚠
+## ⚠️  DISCLAIMER ⚠️
 
 Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
 
