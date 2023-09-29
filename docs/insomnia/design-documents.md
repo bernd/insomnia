@@ -13,10 +13,10 @@ Documents are accessible through the Dashboard of your Project.
 
 If you don't see a Document or Collection you're looking for, ensure you're in the right Project by clicking on the Unetus dropdown menu. Note that the dropdown title will be **Unetus** if you're in the default Project.  
 
-![Click Dashboard in the upper left-hand corner to return to a listing of your Documents and Collections.]({% link assets/images/access-dashboard.png %})
+![Click Dashboard in the upper left-hand corner to return to a listing of your Documents and Collections.]({{ site.baseurl }}{% link assets/images/access-dashboard.png %})
 _From inside a Document or Collection, return to your listings by clicking on your Project name. In this case, the Project name is Unetus._
 
-For information about working with Collections, see [Request Collections]({% link insomnia/request-collections.md %}).
+For information about working with Collections, see [Request Collections]({{ site.baseurl }}{% link insomnia/request-collections.md %}).
 
 ## Create a New Design Document
 

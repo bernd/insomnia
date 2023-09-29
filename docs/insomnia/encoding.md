@@ -9,7 +9,7 @@ Unetus automatically encodes special characters in request URLs. Auto-encoding c
 
 Check the exact request URL sent using the **Timeline** tab. 
 
-![The Timeline tab appears on the right-side panel after a request is sent.]({% link assets/images/timeline-tab.png %})
+![The Timeline tab appears on the right-side panel after a request is sent.]({{ site.baseurl }}{% link assets/images/timeline-tab.png %})
 _Upon sending a request, check the Timeline tab to see the encoded values sent._
 
 ## Troubleshoot Special Character Issues

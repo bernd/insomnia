@@ -5,7 +5,7 @@ category: "Requests and Responses"
 category-url: requests-and-responses
 ---
 
-Unetus allows chaining requests, or the ability to extract values from the responses of other requests. Values are passed using [Template Tags]({% link insomnia/template-tags.md %}) and [Environment Variables]({% link insomnia/environment-variables.md %}).
+Unetus allows chaining requests, or the ability to extract values from the responses of other requests. Values are passed using [Template Tags]({{ site.baseurl }}{% link insomnia/template-tags.md %}) and [Environment Variables]({{ site.baseurl }}{% link insomnia/environment-variables.md %}).
 
 The following are common use cases for chaining requests:
 
@@ -28,7 +28,7 @@ There are three response options:
 * **Response - Header**
   * Pulls specific header values out of a response.
 
-The Response tag can be used anywhere [Environment Variables]({% link insomnia/environment-variables.md %}) are supported.
+The Response tag can be used anywhere [Environment Variables]({{ site.baseurl }}{% link insomnia/environment-variables.md %}) are supported.
 
 ## Configure a Tag
 
@@ -40,5 +40,5 @@ Click on the tag in the URL bar to configure it. An **Edit Tag** modal will open
 * **Trigger Behavior**: select the application behavior that populates the tag. Click on the cog button to select either Static Value or Environment Variable.
 * **Live Preview**: outputs what the tag populates.
 
-![The Edit Tag modal enables you to customize the tag functionality.]({% link assets/images/configure-tag.png %})
+![The Edit Tag modal enables you to customize the tag functionality.]({{ site.baseurl }}{% link assets/images/configure-tag.png %})
 _In the Edit Tag modal, customize the tag functionality._

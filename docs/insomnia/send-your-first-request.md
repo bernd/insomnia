@@ -7,7 +7,7 @@ category-url: get-started
 
 Unetus is an API client that enables you to send API requests outside of your terminal, and without writing any code. This means you don't have to write any finicky cURL requests or backend code to quickly retrieve information, push content to a database, and do anything else a given API enables you to do.
 
-In this guide, we'll talk specifically about HTTP requests. This will give us common ground to send off a first request together. If you want to learn to send gRPC and GraphQL requests, see our more comprehensive [Requests documentation]({% link insomnia/requests.md %}).
+In this guide, we'll talk specifically about HTTP requests. This will give us common ground to send off a first request together. If you want to learn to send gRPC and GraphQL requests, see our more comprehensive [Requests documentation]({{ site.baseurl }}{% link insomnia/requests.md %}).
 
 - [API Request Basics](#api-request-basics)
 - [Send a Request to mockbin](#send-a-request-to-mockbin)
@@ -28,7 +28,7 @@ An API request is composed of discrete elements that let you interact with an AP
   * `POST`: sends data you've entered, and returns a confirmation that the data you sent was received.
   * `PATCH` and `PUT`: sends data that modifies a record that an API has access to.
   * `DELETE`: deletes a record that an API has access to.
-* **Authentication**: The credentials required to access API endpoints. Not all APIs require authentication, and there are a lot of different types of authentication. Learn more about [Authentication]({% link insomnia/authentication.md %}/).
+* **Authentication**: The credentials required to access API endpoints. Not all APIs require authentication, and there are a lot of different types of authentication. Learn more about [Authentication]({{ site.baseurl }}{% link insomnia/authentication.md %}/).
 
 ## Send a Request to mockbin
 
@@ -38,7 +38,7 @@ We're going to use [mockbin](https://mockbin.org/) to test out a `GET` request. 
 1. Click **Create Bin**. You'll be taken to the Bin Builder.
 1. Add some text in the **Body** input.
 
-   ![Enter text in the body.]({% link assets/images/mockbin-body-input.png %})
+   ![Enter text in the body.]({{ site.baseurl }}{% link assets/images/mockbin-body-input.png %})
    _Enter body text. This text will be returned when you make a GET request to this endpoint._
 
 1. Click **Create Bin**. You'll see a new page with a Bin Identifier.
@@ -52,10 +52,10 @@ We're going to use [mockbin](https://mockbin.org/) to test out a `GET` request. 
 1. Enter your mockbin URL in the request URL input.
 1. Click **Send**.
 
-   ![Your mockbin message should appear in the Preview panel.]({% link assets/images/mockbin-return.png %})
+   ![Your mockbin message should appear in the Preview panel.]({{ site.baseurl }}{% link assets/images/mockbin-return.png %})
    _Once you've clicked Send on your request, you should see your mockbin message in the right-side Preview panel. Note that this screenshot shows a Document (not a Collection)._
 
-Congrats! You've now used Unetus to send your first request to mockbin. For more complex request options, see our [Request documentation]({% link insomnia/requests.md %}).
+Congrats! You've now used Unetus to send your first request to mockbin. For more complex request options, see our [Request documentation]({{ site.baseurl }}{% link insomnia/requests.md %}).
 
 ## Send a Request to Unetus Website
 
@@ -70,7 +70,7 @@ In this section, we're going to send a `GET` request to the Unetus website. Feel
 1. Enter `bernd.github.io/unetus` in the request URL input.
 1. Click **Send**.
 
-    ![The Unetus site should appear in the Preview right side panel.]({% link assets/images/request-insomnia-site.png %})
+    ![The Unetus site should appear in the Preview right side panel.]({{ site.baseurl }}{% link assets/images/request-insomnia-site.png %})
     _Once you've clicked Send on your request, you should see the Unetus website in the right-side Preview panel. Note that this screenshot shows a Document (not a Collection)._
 
-Congrats! You've now used Unetus to send your first request to the Unetus website. For more complex request options, see our [Request documentation]({% link insomnia/requests.md %}).
+Congrats! You've now used Unetus to send your first request to the Unetus website. For more complex request options, see our [Request documentation]({{ site.baseurl }}{% link insomnia/requests.md %}).

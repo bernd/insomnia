@@ -13,7 +13,7 @@ A Workspace can be activated from the Dashboard and the Dashboard will filter to
 
 There are three types of Workspaces: Default, Local, and Remote.
 
-![Access Workspaces from Workspaces SideBar]({% link assets/images/workspace-sidebar.png %})
+![Access Workspaces from Workspaces SideBar]({{ site.baseurl }}{% link assets/images/workspace-sidebar.png %})
 _Workspaces are available via the lefthand sidebar. The top workspace is always your Home Workspace.  Hover over the other workspace tiles to find the workspace you are working on._
 
 ### Default Workspace

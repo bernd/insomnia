@@ -16,7 +16,7 @@ Unetus is most commonly used for displaying text content like JSON and XML, and 
 
 Access the **Preview** tab dropdown menu to change the Preview Mode. Note that the tab name changes between Preview, Source, and Raw as you select a new option. 
 
-![The Preview tab appears in the right-side panel, and you can access Preview Modes via by clicking on the Preview dropdown menu.]({% link assets/images/preview.png %})
+![The Preview tab appears in the right-side panel, and you can access Preview Modes via by clicking on the Preview dropdown menu.]({{ site.baseurl }}{% link assets/images/preview.png %})
 _Use the Preview dropdown menu to change the Preview Mode._
 
 ## Search
@@ -27,7 +27,7 @@ To execute a plain text search of a response, click inside the response and type
 
 The filter box appears in the right bottom corner, below the response. [jsonpath-plus](https://www.npmjs.com/package/jsonpath-plus) is used to filter JSON responses, while [XPath](https://www.w3.org/TR/xpath/) is used to filter XML responses. Click on the `?` for examples. You will only see the `?` icon on JSON and XML responses.
 
-![Click on the question mark icon for examples.]({% link assets/images/json-xml-examples.png %})
+![Click on the question mark icon for examples.]({{ site.baseurl }}{% link assets/images/json-xml-examples.png %})
 _On returned JSON and XML, click the question mark icon for examples._
 
 Since we use [jsonpath-plus](https://www.npmjs.com/package/jsonpath-plus), you'll need to escape `@` by preceding it with <code>`</code>. For example, if you want to filter by the following:
@@ -50,7 +50,7 @@ If the response is too large, or you want to save or parse the response outside 
 
 Past responses can be viewed in the dropdown menu of the response window.
 
-![Access the response history for a specific request in the response window dropdown menu.]({% link assets/images/response-history.png %})
+![Access the response history for a specific request in the response window dropdown menu.]({{ site.baseurl }}{% link assets/images/response-history.png %})
 _Click the response window dropdown menu to see response history._
 
 Activating a past response will show the response in the response window. You can also revert the request to the state it was in when the response was saved.

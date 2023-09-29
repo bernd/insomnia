@@ -11,14 +11,14 @@ Unetus automatically stores cookies from every response and sends them with requ
 
 Each workspace has its own cookie jar. Cookies can be added, viewed, modified, or deleted within the cookie manager. The cookie manager is accessible via the **Cookies** button. 
 
-![Click the Cookies button to get to the cookie manager.]({% link assets/images/cookies-button.png %})
+![Click the Cookies button to get to the cookie manager.]({{ site.baseurl }}{% link assets/images/cookies-button.png %})
 _The Cookies button enables you to access the cookie manager._
 
 ## Change Cookie Sending and Storing Behavior
 
 Cookie storing and sending is done automatically. However, it is possible to change this behavior on a per-request basis, within the request settings dialog. The request settings dialog can be accessed via the request options dropdown beside each request in the sidebar.
 
-![Cookie settings appear under individual request dropdown menus.]({% link assets/images/cookie-settings.png %})
+![Cookie settings appear under individual request dropdown menus.]({{ site.baseurl }}{% link assets/images/cookie-settings.png %})
 _Access the cookie settings in an individual request dropdown menu._
 
 ### Send Cookies Automatically

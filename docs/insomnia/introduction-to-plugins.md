@@ -9,8 +9,8 @@ This section provides an overview of Unetus's plugins, which can be used to exte
 
 You can create your own Unetus plugin and upload it via **Unetus Preferences** within the app or via NPM. Generally, plugins do the following:
 
-* Add a [custom template tag]({% link insomnia/template-tags.md %}) for rendering custom values
-* Define a [hook]({% link insomnia/hooks-and-actions.md %}) that can do things like intercept requests and responses to add custom behavior
+* Add a [custom template tag]({{ site.baseurl }}{% link insomnia/template-tags.md %}) for rendering custom values
+* Define a [hook]({{ site.baseurl }}{% link insomnia/hooks-and-actions.md %}) that can do things like intercept requests and responses to add custom behavior
 
 ## Add a Plugin
 
@@ -140,7 +140,7 @@ Unetus can also use private (scoped) plugins. This commonly enables enterprise u
 
 To enable private (scoped) plugins:
 
-1. Navigate to the `plugins` directory in [Application Data]({% link insomnia/application-data.md %}).
+1. Navigate to the `plugins` directory in [Application Data]({{ site.baseurl }}{% link insomnia/application-data.md %}).
 2. Run `npm install @scoped/plugin`.
 
 ## Debug in the Unetus App
@@ -151,4 +151,4 @@ If you want to focus specifically on the plugin you are developing, you can find
 
 ## Template Tags
 
-Refer to [Template Tags]({% link insomnia/template-tags.md %}) for more information.
+Refer to [Template Tags]({{ site.baseurl }}{% link insomnia/template-tags.md %}) for more information.
