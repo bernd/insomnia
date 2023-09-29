@@ -6,6 +6,8 @@ Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSocket
 
 ![Unetus API Client](https://raw.githubusercontent.com/bernd/insomnia/main/screenshots/main.png)
 
+Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
+
 ## Download
 
 Unetus is available for Mac, Windows, and Linux and can be downloaded
@@ -111,6 +113,10 @@ Search for, discover, and install plugins from the Unetus [Plugin Hub](https://i
 - [Insomnia Documenter](https://github.com/jozsefsallai/insomnia-documenter) - Generate beautiful API documentation pages using the [documenter plugin](https://insomnia.rest/plugins/insomnia-plugin-documenter) or your Insomnia export file.
 - [GitHub API Spec Importer](https://github.com/swinton/github-rest-apis-for-insomnia) - A complete set of GitHub REST API route specifications that can be imported straight into Unetus.
 - [Swaggymnia](https://github.com/mlabouardy/swaggymnia) - Generate [Swagger](https://swagger.io/) documentation for your existing API in Unetus.
+
+## Acknowledgements
+
+Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
 
 ## License
 
