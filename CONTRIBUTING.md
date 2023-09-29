@@ -2,6 +2,13 @@
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
+This is a hobby project in low maintenance mode. That means:
+
+- I will accept bug reports, but I can't promise a timely response.
+- I will accept pull-requests to fix bugs, but I can't promise a timely response.
+- I will most probably not accept feature requests.
+- I will not accept pull-requests that do large refactorings.
+
 ## Using the issue tracker
 
 [GitHub Issues](https://github.com/bernd/unetus/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests).

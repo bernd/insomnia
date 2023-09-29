@@ -6,7 +6,33 @@ Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSocket
 
 ![Unetus API Client](https://raw.githubusercontent.com/bernd/unetus/main/screenshots/main.png)
 
+## ⚠ DISCLAIMER ⚠
+
 Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
+
+TLDR: You probably want to use [bruno](https://www.usebruno.com/) instead of this project!
+
+I created this fork because I am not yet ready to change to a different tool
+and loose all my saved configurations.
+
+This is a hobby project!
+
+My plan is to keep this fork low maintenance. That means I will mainly keep
+electron and other dependencies up-to-date and fix smaller bugs if I can.
+I will not spend time extending or refactoring the code base.
+I am pretty happy with the existing features.
+
+Here's the deal:
+
+- I will accept bug reports, but I can't promise a timely response.
+- I will accept pull-requests to fix bugs, but I can't promise a timely response.
+- I will most probably not accept feature requests.
+- I will not accept pull-requests that do large refactorings.
+
+If that works for you: Welcome! 👋
+
+Please see the [contributing guidelines](CONTRIBUTING.md) for details about
+bug reports and feature requests.
 
 ## Download
 
@@ -16,7 +42,7 @@ from the [release page](https://github.com/bernd/unetus/releases).
 ## Bugs and Feature Requests
 
 Have a bug or a feature request? First, read the
-[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/bernd/unetus/issues).
+[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem is not addressed yet, [please open a new issue](https://github.com/bernd/unetus/issues).
 
 ## Contributing
 
