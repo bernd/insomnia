@@ -22,10 +22,6 @@ import {
 } from 'react-router-dom';
 
 import {
-  getFirstName,
-  getLastName,
-  isLoggedIn,
-  logout,
   onLoginLogout,
 } from '../../account/session';
 import { isDevelopment } from '../../common/constants';
@@ -46,7 +42,7 @@ import { showError, showModal } from '../components/modals';
 import { AlertModal } from '../components/modals/alert-modal';
 import { AskModal } from '../components/modals/ask-modal';
 import { ImportModal } from '../components/modals/import-modal';
-import { LoginModal, showLoginModal } from '../components/modals/login-modal';
+import { LoginModal } from '../components/modals/login-modal';
 import {
   SettingsModal,
   showSettingsModal,

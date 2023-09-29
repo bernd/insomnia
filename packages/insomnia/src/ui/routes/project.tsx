@@ -12,7 +12,6 @@ import {
   Popover,
   SearchField,
   Select,
-  SelectValue,
 } from 'react-aria-components';
 import {
   LoaderFunction,
@@ -64,7 +63,6 @@ import { ImportModal } from '../components/modals/import-modal';
 import { EmptyStatePane } from '../components/panes/project-empty-state-pane';
 import { SidebarLayout } from '../components/sidebar-layout';
 import { TimeFromNow } from '../components/time-from-now';
-import { useOrganizationLoaderData } from './organization';
 
 export interface WorkspaceWithMetadata {
   _id: string;
@@ -321,8 +319,6 @@ const ProjectRoute: FC = () => {
     organizationId: string;
     projectId: string;
   };
-
-  const { organizations } = useOrganizationLoaderData();
 
   const [searchParams, setSearchParams] = useSearchParams();
   const [isGitRepositoryCloneModalOpen, setIsGitRepositoryCloneModalOpen] =

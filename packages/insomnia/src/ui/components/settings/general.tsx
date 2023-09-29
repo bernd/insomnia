@@ -12,7 +12,6 @@ import {
 } from '../../../common/constants';
 import { docsKeyMaps } from '../../../common/documentation';
 import { HttpVersion, HttpVersions, UpdateChannel } from '../../../common/settings';
-import { strings } from '../../../common/strings';
 import { initNewOAuthSession } from '../../../network/o-auth-2/get-token';
 import { RootLoaderData } from '../../routes/root';
 import { Link } from '../base/link';
