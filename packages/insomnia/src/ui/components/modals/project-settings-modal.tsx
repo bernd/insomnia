@@ -39,11 +39,7 @@ export const ProjectSettingsModal: FC<ProjectSettingsModalProps> = ({ project, o
               {isRemote && (
                 <>
                   <HelpTooltip className="space-left">
-                    To rename a {strings.remoteProject.singular.toLowerCase()}{' '}
-                    {strings.project.singular.toLowerCase()} please visit{' '}
-                    <a href="https://app.insomnia.rest/app/teams">
-                      the insomnia website.
-                    </a>
+                    Remote projects not supported.
                   </HelpTooltip>
                   <input disabled readOnly defaultValue={project.name} />
                 </>

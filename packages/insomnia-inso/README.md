@@ -9,7 +9,7 @@
     <br />
     <br />
   </h1>
-  <h3>A CLI for <a href="https://insomnia.rest">Unetus</a></h3>
+  <h3>A CLI for <a href="https://github.com/bernd/unetus">Unetus</a></h3>
   <img src="https://raw.githubusercontent.com/bernd/unetus/main/packages/insomnia-inso/assets/demo.gif" alt=""/>
   <br />
 </div>
@@ -18,4 +18,4 @@
 
 ## Documentation
 
-See the [open-source Inso CLI documentation](https://docs.insomnia.rest/inso-cli/introduction).
+See the [open-source Inso CLI documentation](https://bernd.github.io/unetus/inso-cli/introduction).
