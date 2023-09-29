@@ -6,6 +6,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "docs/**"
+      - "screenshots/**"
+      - "scripts/**"
   pull_request:
     types:
       - opened
