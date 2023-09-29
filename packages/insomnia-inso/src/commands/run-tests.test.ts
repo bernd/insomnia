@@ -4,7 +4,6 @@ import { MockedFunction } from 'jest-mock';
 
 import { globalBeforeAll, globalBeforeEach } from '../jest/before';
 import { logger } from '../logger';
-import { GenerateConfigOptions } from './generate-config';
 import { runInsomniaTests, RunTestsOptions } from './run-tests';
 
 jest.mock('insomnia-testing');
@@ -47,7 +46,7 @@ describe('runInsomniaTests()', () => {
     const contents = 'generated test contents';
     generate.mockReturnValue(contents);
 
-    const options: Partial<GenerateConfigOptions> = {
+    const options: Partial<GlobalOptions> = {
       ...base,
       // @ts-expect-error not sure why this was an invalid value, but I'm going to leave it here
       reporter: 'min',

@@ -5,14 +5,12 @@ import { parseArgsStringToArgv } from 'string-argv';
 import * as packageJson from '../package.json';
 import * as cli from './cli';
 import { exportSpecification as _exportSpecification } from './commands/export-specification';
-import { generateConfig as _generateConfig } from './commands/generate-config';
 import { lintSpecification as _lintSpecification } from './commands/lint-specification';
 import { runInsomniaTests as _runInsomniaTests } from './commands/run-tests';
 import { globalBeforeAll, globalBeforeEach } from './jest/before';
 import { logger } from './logger';
 import { exit as _exit } from './util';
 
-jest.mock('./commands/generate-config');
 jest.mock('./commands/lint-specification');
 jest.mock('./commands/run-tests');
 jest.mock('./commands/export-specification');
@@ -26,7 +24,6 @@ const initInso = () => {
   };
 };
 
-const generateConfig = _generateConfig as MockedFunction<typeof _generateConfig>;
 const lintSpecification = _lintSpecification as MockedFunction<typeof _lintSpecification>;
 const runInsomniaTests = _runInsomniaTests as MockedFunction<typeof _runInsomniaTests>;
 const exportSpecification = _exportSpecification as MockedFunction<typeof _exportSpecification>;
@@ -43,7 +40,6 @@ describe('cli', () => {
     globalBeforeEach();
     inso = initInso();
     jest.spyOn(console, 'error').mockImplementation(() => {});
-    generateConfig.mockResolvedValue(true);
     lintSpecification.mockResolvedValue(true);
     runInsomniaTests.mockResolvedValue(true);
     exportSpecification.mockResolvedValue(true);
@@ -82,59 +78,6 @@ describe('cli', () => {
     });
   });
 
-  describe('generate config', () => {
-    it('should call generateConfig with no arg and default type', () => {
-      inso('generate config');
-      expect(generateConfig).toHaveBeenCalledWith(undefined, {
-        type: 'declarative',
-        format: 'yaml',
-      });
-    });
-
-    it('should throw error if type argument is missing', () => {
-      expect(() => inso('generate config -t')).toThrowError();
-    });
-
-    it('should throw error if output argument is missing', () => {
-      expect(() => inso('generate config -o')).toThrowError();
-    });
-
-    it('should throw error if tags argument is missing', () => {
-      expect(() => inso('generate config --tags')).toThrowError();
-    });
-
-    it('should call generateConfig with undefined output argument', () => {
-      inso('generate config -t declarative file.yaml');
-      expect(generateConfig).toHaveBeenCalledWith('file.yaml', {
-        type: 'declarative',
-        format: 'yaml',
-      });
-    });
-
-    it('should call generateConfig with all expected arguments', () => {
-      inso('generate config -t kubernetes -o output.yaml --tags "a,b,c" file.yaml');
-      expect(generateConfig).toHaveBeenCalledWith(
-        'file.yaml',
-        expect.objectContaining({
-          type: 'kubernetes',
-          output: 'output.yaml',
-          tags: 'a,b,c',
-        }),
-      );
-    });
-
-    it('should call generateConfig with global options', () => {
-      inso('generate config -t kubernetes -w testing/dir file.yaml');
-      expect(generateConfig).toHaveBeenCalledWith(
-        'file.yaml',
-        expect.objectContaining({
-          type: 'kubernetes',
-          workingDir: 'testing/dir',
-        }),
-      );
-    });
-  });
-
   describe('lint specification', () => {
     it('should call lintSpecification with no arg', () => {
       inso('lint spec');
@@ -146,7 +89,7 @@ describe('cli', () => {
       expect(lintSpecification).toHaveBeenCalledWith('file.yaml', {});
     });
 
-    it('should call generateConfig with global options', () => {
+    it('should call lintSpecification with global options', () => {
       inso('lint spec file.yaml -w dir1 -a dir2 --src src --ci');
       expect(lintSpecification).toHaveBeenCalledWith('file.yaml', {
         workingDir: 'dir1',
@@ -216,7 +159,7 @@ describe('cli', () => {
       });
     });
 
-    it('should call generateConfig with global options', () => {
+    it('should call exportSpect with global options', () => {
       inso('export spec spc_123 -w testing/dir');
       expect(exportSpecification).toHaveBeenCalledWith(
         'spc_123',
@@ -235,63 +178,13 @@ describe('cli', () => {
         exit.mock.calls[0][0],
       ).resolves.toBe(result);
 
-    it('should call script command by default', () => {
-      inso('gen-conf', insorcFilePath);
-      expect(generateConfig).toHaveBeenCalledWith(
-        'Designer Demo',
-        expect.objectContaining({
-          type: 'declarative',
-        }),
-      );
-    });
-
-    it('should call script command', () => {
-      inso('script gen-conf', insorcFilePath);
-      expect(generateConfig).toHaveBeenCalledWith(
-        'Designer Demo',
-        expect.objectContaining({
-          type: 'declarative',
-        }),
-      );
-    });
-
     it('should warn if script task does not start with inso', async () => {
       inso('invalid-script', insorcFilePath);
 
       const logs = logger.__getLogs();
 
       expect(logs.fatal).toContain('Tasks in a script should start with `inso`.');
-      expect(generateConfig).not.toHaveBeenCalledWith();
       await expectExitWith(false);
-    });
-
-    it('should call nested command', async () => {
-      inso('gen-conf:k8s', insorcFilePath);
-      expect(generateConfig).toHaveBeenCalledWith(
-        'Designer Demo',
-        expect.objectContaining({
-          type: 'kubernetes',
-        }),
-      );
-
-      const logs = logger.__getLogs();
-
-      expect(logs.debug).toEqual([
-        '>> inso gen-conf --type kubernetes',
-        '>> inso generate config Designer Demo --type declarative --type kubernetes',
-      ]);
-      await expectExitWith(true);
-    });
-
-    it('should call nested command and pass through props', async () => {
-      inso('gen-conf:k8s --type declarative', insorcFilePath);
-      expect(generateConfig).toHaveBeenCalledWith(
-        'Designer Demo',
-        expect.objectContaining({
-          type: 'declarative',
-        }),
-      );
-      await expectExitWith(true);
     });
 
     it('should override env setting from command', async () => {
