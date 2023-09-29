@@ -1,11 +1,10 @@
 # Insomnia API Client
 
-[![Slack Channel](https://chat.insomnia.rest/badge.svg)](https://chat.insomnia.rest/)
-[![license](https://img.shields.io/github/license/Kong/insomnia.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/bernd/insomnia.svg)](LICENSE)
 
 Insomnia is an open-source, cross-platform API client for GraphQL, REST, WebSockets, Server-sent events and gRPC.
 
-![Insomnia API Client](https://raw.githubusercontent.com/Kong/insomnia/develop/screenshots/main.png)
+![Insomnia API Client](https://raw.githubusercontent.com/bernd/insomnia/develop/screenshots/main.png)
 
 ## Download
 
@@ -17,7 +16,7 @@ from the website.
 ## Bugs and Feature Requests
 
 Have a bug or a feature request? First, read the
-[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/Kong/insomnia/issues).
+[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/bernd/insomnia/issues).
 
 For more generic product questions and feedback, join the [Slack Team](https://chat.insomnia.rest).
 

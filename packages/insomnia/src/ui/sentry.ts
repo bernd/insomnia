@@ -22,6 +22,6 @@ function sentryWatchUserInfo() {
 }
 
 export function initializeSentry() {
-  Sentry.init(SENTRY_OPTIONS);
+  //Sentry.init(SENTRY_OPTIONS);
   sentryWatchUserInfo();
 }

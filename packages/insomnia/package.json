@@ -4,17 +4,17 @@
   "productName": "Insomnia",
   "private": true,
   "description": "The Collaborative API Design Tool",
-  "homepage": "https://konghq.com",
+  "homepage": "https://github.com/bernd/insomnia",
   "bugs": {
-    "url": "https://github.com/Kong/insomnia/issues"
+    "url": "https://github.com/bernd/insomnia/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kong/insomnia.git",
+    "url": "git+https://github.com/bernd/insomnia.git",
     "directory": "packages/insomnia"
   },
   "license": "MIT",
-  "author": "Kong <office@konghq.com>",
+  "author": "Kong",
   "main": "src/main.min.js",
   "scripts": {
     "build": "npm run build:sr && npm run build:app",
