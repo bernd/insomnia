@@ -1,13 +1,13 @@
 import commander from 'commander';
 import { parseArgsStringToArgv } from 'string-argv';
 
-import type { GlobalOptions } from './get-options';
 import type { ExportSpecificationOptions } from './commands/export-specification';
 import { exportSpecification } from './commands/export-specification';
 import type { LintSpecificationOptions } from './commands/lint-specification';
 import { lintSpecification } from './commands/lint-specification';
 import type { RunTestsOptions } from './commands/run-tests';
 import { reporterTypes, runInsomniaTests, TestReporter } from './commands/run-tests';
+import type { GlobalOptions } from './get-options';
 import { getOptions } from './get-options';
 import { configureLogger, logger } from './logger';
 import { UNKNOWN_OBJ } from './types';
