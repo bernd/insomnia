@@ -34,6 +34,10 @@ If that works for you: Welcome! 👋
 Please see the [contributing guidelines](CONTRIBUTING.md) for details about
 bug reports and feature requests.
 
+## Documentation
+
+https://bernd.github.io/unetus/
+
 ## Download
 
 Unetus is available for Mac, Windows, and Linux and can be downloaded
