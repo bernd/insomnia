@@ -2,9 +2,9 @@ toc:
   - title: Get Started, Design Debug and Test
     collapse-id: get-started
     items: 
-      - title: Introduction to Unetus
+      - title: Introduction
         url: /insomnia/get-started
-      - title: Install Unetus
+      - title: Install
         url: /insomnia/install
       - title: Send Your First Request
         url: /insomnia/send-your-first-request
@@ -12,7 +12,7 @@ toc:
         url: /insomnia/import-export-data
       - title: Environment Variables
         url: /insomnia/environment-variables
-      - title: Unetus Workspaces
+      - title: Workspaces
         url: /insomnia/workspaces
   - title: Debug Requests and Responses
     collapse-id: debug
