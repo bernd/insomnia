@@ -9,7 +9,7 @@
   "theme": "default",
   "lightTheme": "studio-light",
   "darkTheme": "default",
-  "githubOrg": "Kong",
+  "githubOrg": "bernd",
   "githubRepo": "insomnia",
   "segmentWriteKeys": {
     "development": "none",
