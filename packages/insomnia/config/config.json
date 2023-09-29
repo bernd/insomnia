@@ -1,8 +1,8 @@
 {
-  "name": "insomnia",
-  "appId": "com.insomnia.app",
+  "name": "unetus",
+  "appId": "com.unetus.app",
   "userDataFolder": "Insomnia",
-  "productName": "Insomnia",
+  "productName": "Unetus",
   "synopsis": "The Collaborative API Client and Design Tool",
   "icon": "https://github.com/bernd/insomnia/blob/main/packages/insomnia/src/icons/icon.ico?raw=true",
   "changelogUrl": "https://github.com/bernd/insomnia/releases",

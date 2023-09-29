@@ -1,3 +1,3 @@
-# Insomnia
+# Unetus
 
 The main desktop application.

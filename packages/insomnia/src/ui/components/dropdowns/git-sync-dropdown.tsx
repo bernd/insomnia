@@ -304,15 +304,15 @@ export const GitSyncDropdown: FC<Props> = ({ className, gitRepository, isInsomni
         >
           <DropdownSection
             items={isInsomniaSyncEnabled ? [{
-              value: 'Use Insomnia Sync',
+              value: 'Use Unetus Sync',
               id: 'use-insomnia-sync',
             }] : []}
           >
             {item => (
               <DropdownItem
                 key={item.id}
-                textValue='Use Insomnia Sync'
-                aria-label='Use Insomnia Sync'
+                textValue='Use Unetus Sync'
+                aria-label='Use Unetus Sync'
               >
                 <Button
                   variant='contained'
@@ -332,7 +332,7 @@ export const GitSyncDropdown: FC<Props> = ({ className, gitRepository, isInsomni
                     margin: '0 var(--padding-sm)',
                   }}
                 >
-                  <i className="fa fa-cloud" /> Use Insomnia Sync
+                  <i className="fa fa-cloud" /> Use Unetus Sync
                 </Button>
               </DropdownItem>
             )}
@@ -467,14 +467,14 @@ export const GitSyncDropdown: FC<Props> = ({ className, gitRepository, isInsomni
         >
           <DropdownSection
             items={isInsomniaSyncEnabled ? [{
-              value: 'Use Insomnia Sync',
+              value: 'Use Unetus Sync',
               id: 'use-insomnia-sync',
             }] : []}
           >
             {item => (
               <DropdownItem
                 key={item.id}
-                aria-label='Use Insomnia Sync'
+                aria-label='Use Unetus Sync'
               >
                 <Button
                   variant='contained'
@@ -494,7 +494,7 @@ export const GitSyncDropdown: FC<Props> = ({ className, gitRepository, isInsomni
                     margin: '0 var(--padding-sm)',
                   }}
                 >
-                  <i className="fa fa-cloud" /> Use Insomnia Sync
+                  <i className="fa fa-cloud" /> Use Unetus Sync
                 </Button>
               </DropdownItem>
             )}

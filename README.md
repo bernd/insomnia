@@ -1,36 +1,28 @@
-# Insomnia API Client
+# Unetus API Client
 
 [![license](https://img.shields.io/github/license/bernd/insomnia.svg)](LICENSE)
 
-Insomnia is an open-source, cross-platform API client for GraphQL, REST, WebSockets, Server-sent events and gRPC.
+Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSockets, Server-sent events and gRPC.
 
-![Insomnia API Client](https://raw.githubusercontent.com/bernd/insomnia/develop/screenshots/main.png)
+![Unetus API Client](https://raw.githubusercontent.com/bernd/insomnia/main/screenshots/main.png)
 
 ## Download
 
-Insomnia is available for Mac, Windows, and Linux and can be downloaded
-from the website.
-
-**[https://insomnia.rest/download](https://insomnia.rest/download/)**
+Unetus is available for Mac, Windows, and Linux and can be downloaded
+from the [release page](https://github.com/bernd/insomnia/releases).
 
 ## Bugs and Feature Requests
 
 Have a bug or a feature request? First, read the
 [issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/bernd/insomnia/issues).
 
-For more generic product questions and feedback, join the [Slack Team](https://chat.insomnia.rest).
-
 ## Contributing
 
 Please read through our [contributing guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md). Included are directions for opening issues, coding standards, and notes on development.
 
-## Documentation
+## Develop Unetus
 
-Check out our open-source [Insomnia Documentation](https://docs.insomnia.rest/).
-
-## Develop Insomnia
-
-Development on Insomnia can be done on Mac, Windows, or Linux as long as you have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/). See the `.nvmrc` file located in the project for the correct Node version.
+Development on Unetus can be done on Mac, Windows, or Linux as long as you have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/). See the `.nvmrc` file located in the project for the correct Node version.
 
 <details>
 <summary>Initial Dev Setup</summary>
@@ -112,14 +104,15 @@ You can use any editor you'd like, but make sure to have support/plugins for the
 
 ## Plugins
 
-Search for, discover, and install plugins from the Insomnia [Plugin Hub](https://insomnia.rest/plugins/)!
+Search for, discover, and install plugins from the Unetus [Plugin Hub](https://insomnia.rest/plugins/)!
 
 ## Community Projects
 
 - [Insomnia Documenter](https://github.com/jozsefsallai/insomnia-documenter) - Generate beautiful API documentation pages using the [documenter plugin](https://insomnia.rest/plugins/insomnia-plugin-documenter) or your Insomnia export file.
-- [GitHub API Spec Importer](https://github.com/swinton/github-rest-apis-for-insomnia) - A complete set of GitHub REST API route specifications that can be imported straight into Insomnia.
-- [Swaggymnia](https://github.com/mlabouardy/swaggymnia) - Generate [Swagger](https://swagger.io/) documentation for your existing API in Insomnia.
+- [GitHub API Spec Importer](https://github.com/swinton/github-rest-apis-for-insomnia) - A complete set of GitHub REST API route specifications that can be imported straight into Unetus.
+- [Swaggymnia](https://github.com/mlabouardy/swaggymnia) - Generate [Swagger](https://swagger.io/) documentation for your existing API in Unetus.
 
 ## License
 
-[MIT](LICENSE) &copy; [Insomnia](https://insomnia.rest)
+[MIT](LICENSE) &copy; 2016-2023 [Insomnia](https://insomnia.rest)
+[MIT](LICENSE) &copy; Unetus Contributors

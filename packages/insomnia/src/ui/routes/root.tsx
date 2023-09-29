@@ -288,7 +288,7 @@ const Root = () => {
           {importUri && (
             <ImportModal
               onHide={() => setImportUri('')}
-              projectName="Insomnia"
+              projectName="Unetus"
               organizationId={organizationId}
               from={{ type: 'uri', defaultValue: importUri }}
             />

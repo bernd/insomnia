@@ -307,7 +307,7 @@ export const SyncDropdown: FC<Props> = ({ vcs, workspace, project }) => {
   const visibleBranches = localBranches.filter(b => !b.match(/\.hidden$/));
   const syncMenuHeader = (
     <>
-      Insomnia Sync{' '}
+      Unetus Sync{' '}
       <HelpTooltip>
         Sync and collaborate on workspaces{' '}
         <Link href={docsVersionControl}>

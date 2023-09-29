@@ -38,7 +38,7 @@ if (envDataPath) {
 } else {
   // Explicitly set userData folder from config because it's sketchy to rely on electron-builder to use productName, which could be changed by accident.
   const defaultPath = app.getPath('userData');
-  const newPath = path.join(defaultPath, '../', isDevelopment() ? 'insomnia-app' : userDataFolder);
+  const newPath = path.join(defaultPath, '../', isDevelopment() ? 'Unetus-dev' : userDataFolder);
   app.setPath('userData', newPath);
 }
 

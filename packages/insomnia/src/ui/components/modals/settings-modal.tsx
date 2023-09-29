@@ -45,7 +45,7 @@ export const SettingsModal = forwardRef<SettingsModalHandle, ModalProps>((props,
         </span>
       </ModalHeader>
       <ModalBody noScroll>
-        <Tabs aria-label="Insomnia Settings"  defaultSelectedKey={defaultTabKey}>
+        <Tabs aria-label="Unetus Settings"  defaultSelectedKey={defaultTabKey}>
           <TabItem key="general" title="General">
             <PanelContainer className="pad">
               <General />

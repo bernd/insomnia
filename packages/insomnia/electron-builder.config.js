@@ -1,4 +1,4 @@
-const BINARY_PREFIX = 'Insomnia.Core';
+const BINARY_PREFIX = 'Unetus.Core';
 
 // NOTE: USE_HARD_LINKS
 // https://github.com/electron-userland/electron-builder/issues/4594#issuecomment-574653870
@@ -9,10 +9,10 @@ const BINARY_PREFIX = 'Insomnia.Core';
  */
 const config = {
   npmRebuild: false,
-  appId: 'com.insomnia.app',
+  appId: 'com.unetus.app',
   protocols: [
     {
-      name: 'Insomnia',
+      name: 'Unetus',
       role: 'Viewer',
       schemes: ['insomnia'],
     },
@@ -106,12 +106,12 @@ const config = {
   },
   linux: {
     artifactName: `${BINARY_PREFIX}-\${version}.\${ext}`,
-    executableName: 'insomnia',
+    executableName: 'unetus',
     synopsis: 'The Collaborative API Client and Design Tool',
     category: 'Development',
     desktop: {
-      Name: 'Insomnia',
-      Comment: 'Insomnia is a cross-platform REST client, built on top of Electron.',
+      Name: 'Unetus',
+      Comment: 'Unetus is a cross-platform REST client, built on top of Electron.',
       Categories: 'Development',
       Keywords: 'GraphQL;REST;gRPC;SOAP;openAPI;GitOps;',
     },

@@ -351,7 +351,7 @@ const showSaveExportedFileDialog = async ({
   const lastDir = window.localStorage.getItem('insomnia.lastExportPath');
   const dir = lastDir || window.app.getPath('desktop');
   const options = {
-    title: 'Export Insomnia Data',
+    title: 'Export Unetus Data',
     buttonLabel: 'Export',
     defaultPath: `${path.join(dir, `${name}_${date}`)}.${selectedFormat}`,
   };
@@ -450,7 +450,7 @@ export const exportRequestsToFile = (requestIds: string[]) => {
       }
       const exportPrivateEnvironments = await showExportPrivateEnvironmentsModal();
       const fileName = await showSaveExportedFileDialog({
-        exportedFileNamePrefix: 'Insomnia',
+        exportedFileNamePrefix: 'Unetus',
         selectedFormat,
       });
 

@@ -557,7 +557,7 @@ async function showUnresponsiveModal() {
     defaultId: 1,
     cancelId: 0,
     title: 'Unresponsive',
-    message: 'Insomnia has become unresponsive. Do you want to reload?',
+    message: 'Unetus has become unresponsive. Do you want to reload?',
   });
 
   // @ts-expect-error -- TSCONVERSION appears to be a genuine error

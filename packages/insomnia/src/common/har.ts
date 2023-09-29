@@ -259,8 +259,8 @@ export async function exportHar(exportRequests: ExportRequest[]) {
     log: {
       version: '1.2',
       creator: {
-        name: 'Insomnia REST Client',
-        version: `insomnia.desktop.app:v${getAppVersion()}`,
+        name: 'Unetus REST Client',
+        version: `unetus.desktop.app:v${getAppVersion()}`,
       },
       entries: entries,
     },
