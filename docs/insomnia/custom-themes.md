@@ -14,7 +14,7 @@ Make a custom Unetus theme by creating an Unetus [plugin](/insomnia/introduction
 
 1. Create a new project for your theme. If you plan to make this theme available via NPM, start your project name with `insomnia-plugin-`. The following example is called `insomnia-plugin-dark-colorblind-theme`.
 
-2. Following plugin instructions, write your [plugin package.json](https://docs.insomnia.rest/insomnia/introduction-to-plugins#plugin-packagejson). In your entry file, export your theme(s).
+2. Following plugin instructions, write your [plugin package.json](/insomnia/introduction-to-plugins#plugin-packagejson). In your entry file, export your theme(s).
 
 3. Start with a baseline template. Each section of the configuration has `background`, `foreground`, and `highlight` properties, with modifiable color properties.
 

@@ -5,7 +5,7 @@ category: Support
 category-url: support
 ---
 
-Here are the answers to the most frequently asked questions that we receive. For community support, see our [support page](https://insomnia.rest/support).
+Here are the answers to the most frequently asked questions that we receive.
 
 ## General Questions
 
@@ -61,7 +61,7 @@ Sometimes, if you make a request that returns a lot of data, Unetus will become 
 
 Some users have experienced the Unetus app crashing after pasting in a large JSON request body. Here's how to delete the offending request body while preserving the rest of your data:
 
-1. Quit Unetus and back up (duplicate and rename) your Unetus app data directory. See [Application Data](https://docs.insomnia.rest/insomnia/application-data) to locate the app data directory on your OS.
+1. Quit Unetus and back up (duplicate and rename) your Unetus app data directory. See [Application Data](/insomnia/application-data) to locate the app data directory on your OS.
 
 1. Once you've backed up your app data, find the `insomnia.requests.db` file.
 

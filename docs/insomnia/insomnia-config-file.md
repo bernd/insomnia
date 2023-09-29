@@ -28,10 +28,6 @@ The following example shows all of the [`settings`](/insomnia/insomnia-config-fi
 {
   "insomniaConfig": "1.0.0",
   "settings": {
-    "allowNotificationRequests": false,
-    "disableUpdateNotification": true,
-    "enableAnalytics": false,
-    "disablePaidFeatureAds": true,
     "incognitoMode": true
   }
 }
@@ -47,8 +43,4 @@ The following are the settings you're allowed to configure.
 {:.table .table-striped}
 Parameter | Data Type | Default | Description
 --------- | --------- | -------| -----------
-`allowNotificationRequests` | Boolean | `true` | If `false`, Unetus won’t send requests to the api.insomnia.rest/notifications endpoint. This can have effects like the users won’t be notified in-app about billing issues and they won’t receive tips about app usage.
-`disableUpdateNotification` | Boolean | `false` | If `true`, Unetus won’t show a notification when new updates are available. Users can still check for updates in Preferences.
-`enableAnalytics` | Boolean | `false` | If `true`, Unetus will send anonymous data about features and plugins used.
-`disablePaidFeatureAds` | Boolean | `false` | If `true`, Unetus won’t show any visual elements that recommend plan upgrades.
 `incognitoMode` | Boolean | `false` | If `true`, Unetus won’t make any network requests other than the requests you ask it to send. This configuration controls and overwrites any existing settings for  **Send Usage Stats** and **Allow Notification Requests** by disabling both.

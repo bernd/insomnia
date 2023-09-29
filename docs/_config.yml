@@ -2,7 +2,7 @@ title: Unetus Docs
 description: >- # this means to ignore newlines until "baseurl:"
   Unetus Docs: Deliver high quality APIs through standards.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://docs.insomnia.rest" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bernd.github.io/unetus" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima

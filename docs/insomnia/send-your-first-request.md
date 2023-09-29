@@ -67,7 +67,7 @@ In this section, we're going to send a `GET` request to the Unetus website. Feel
    1. Enter a request name like `Return Unetus website`.
    1. Select a `GET` method from the dropdown.
    1. Click **Create**.
-1. Enter `insomnia.rest` in the request URL input.
+1. Enter `bernd.github.io/unetus` in the request URL input.
 1. Click **Send**.
 
     ![The Unetus site should appear in the Preview right side panel.](/assets/images/request-insomnia-site.png)

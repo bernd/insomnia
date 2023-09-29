@@ -28,7 +28,7 @@ There are three response options:
 * **Response - Header**
   * Pulls specific header values out of a response.
 
-The Response tag can be used anywhere [Environment Variables](https://docs.insomnia.rest/insomnia/environment-variables) are supported.
+The Response tag can be used anywhere [Environment Variables](/insomnia/environment-variables) are supported.
 
 ## Configure a Tag
 
