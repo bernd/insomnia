@@ -1,6 +1,7 @@
 import commander from 'commander';
 import { parseArgsStringToArgv } from 'string-argv';
 
+import type { GlobalOptions } from './get-options';
 import type { ExportSpecificationOptions } from './commands/export-specification';
 import { exportSpecification } from './commands/export-specification';
 import type { LintSpecificationOptions } from './commands/lint-specification';
