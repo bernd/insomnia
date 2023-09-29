@@ -40,10 +40,8 @@ import { exchangeCodeForToken } from '../../sync/git/github-oauth-provider';
 import { exchangeCodeForGitLabToken } from '../../sync/git/gitlab-oauth-provider';
 import { submitAuthCode } from '../auth-session-provider';
 import { WorkspaceDropdown } from '../components/dropdowns/workspace-dropdown';
-import { GitHubStarsButton } from '../components/github-stars-button';
 import { Hotkey } from '../components/hotkey';
 import { Icon } from '../components/icon';
-import { InsomniaAILogo } from '../components/insomnia-icon';
 import { showError, showModal } from '../components/modals';
 import { AlertModal } from '../components/modals/alert-modal';
 import { AskModal } from '../components/modals/ask-modal';
@@ -301,12 +299,6 @@ const Root = () => {
           )}
           <div className="w-full h-full divide-x divide-solid divide-y divide-[--hl-md] grid-template-app-layout grid relative bg-[--color-bg]">
             <header className="[grid-area:Header] grid grid-cols-3 items-center">
-              <div className="flex items-center">
-                <div className="flex w-[50px] py-2">
-                  <InsomniaAILogo />
-                </div>
-                {!isLoggedIn() ? <GitHubStarsButton /> : null}
-              </div>
               <div className="flex gap-2 flex-nowrap items-center justify-center">
                 {workspaceData && (
                   <Fragment>
