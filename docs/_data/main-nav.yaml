@@ -12,29 +12,8 @@ toc:
         url: /insomnia/import-export-data
       - title: Environment Variables
         url: /insomnia/environment-variables
-#      - title: Unetus Workspaces
-#        url: /insomnia/workspaces
-#  - title: Insomnia Accounts
-#    collapse-id: insomnia-accounts
-#    items:
-#      - title: Insomnia Accounts
-#        url: /insomnia/accounts
-#      - title: Forgotten Passwords
-#        url: /insomnia/forgot-password
-#      - title: Change Password
-#        url: /insomnia/change-password
-#  - title: Insomnia Teams
-#    collapse-id: teams
-#    items:
-#      - title: Insomnia Teams
-#        url: /insomnia/insomnia-teams
-#  - title: Insomnia Sync Subscriptions
-#    collapse-id: subscriptions
-#    items:
-#      - title: Insomnia Subscriptions
-#        url: /insomnia/subscriptions
-#      - title: Insomnia Subscription Management
-#        url: /insomnia/subscription-management
+      - title: Unetus Workspaces
+        url: /insomnia/workspaces
   - title: Debug Requests and Responses
     collapse-id: debug
     items: 
@@ -67,8 +46,6 @@ toc:
         url: /insomnia/linting
       - title: GraphQL for OpenAPI
         url: /insomnia/graphql-for-openapi
-#      - title: Migrate from Designer
-#        url: /insomnia/migrate-from-designer
   - title: Test APIs
     collapse-id: test
     items: 
@@ -76,33 +53,6 @@ toc:
         url: /insomnia/unit-testing
       - title: Stress Testing
         url: /insomnia/stress-testing
-#  - title: Sync with Insomnia Collections with Insomnia Cloud
-#    collapse-id: insomnia-sync
-#    items:
-#      - title: Sign into Insomnia Cloud
-#        url: /insomnia/insomnia-sign-login
-#      - title: Sync Collections with Insomnia Cloud
-#        url: /insomnia/insomnia-sync
-#      - title: Teams
-#        url: /insomnia/teams
-#      - title: End to End Data Encryption
-#        url: /insomnia/data-encryption
-#  - title: Sync with Design Documents with Git
-#    collapse-id: git-sync
-#    items:
-#      - title: Sync with Git
-#        url: /insomnia/git-sync
-#  - title: Security
-#    collapse-id: security
-#    items:
-#      - title: Key Security Features
-#        url: /insomnia/security-features
-#      - title: Security Standards
-#        url: /insomnia/security-standards
-#      - title: Signup and Authentication
-#        url: /insomnia/signup-and-auth
-#      - title: Analytics Collected
-#        url: /insomnia/analytics-collected
   - title: Built-In Features
     collapse-id: features
     items: 
@@ -118,8 +68,6 @@ toc:
         url: /insomnia/encoding
       - title: GraphQL Queries
         url: /insomnia/graphql-queries
-#      - title: Run in Insomnia Button
-#        url: /insomnia/run-in-insomnia-button
       - title: Key Maps
         url: /insomnia/key-maps
       - title: Proxy
@@ -148,8 +96,6 @@ toc:
         url: /insomnia/application-data
       - title: SSL Validation
         url: /insomnia/ssl-validation
-#      - title: Password Recovery
-#        url: /insomnia/password-recovery
 #  - title: Inso CLI
 #    collapse-id: cli
 #    items:
@@ -178,12 +124,3 @@ toc:
 #        url: /inso-cli/inso-on-docker
 #      - title: Continuous Integration
 #        url: /inso-cli/continuous-integration
-#  - title: Work with Other Kong Products
-#    collapse-id: kong-products
-#    items:
-#      - title: Publish API to Dev Portal
-#        url: /insomnia/publish-to-dev-portal
-#      - title: Kong Declarative Config (for decK)
-#        url: /insomnia/declarative-config
-#      - title: Kong for Kubernetes
-#        url: /insomnia/kong-for-kubernetes
