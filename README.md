@@ -10,7 +10,7 @@ Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSocket
 
 Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
 
-TLDR: You probably want to use [bruno](https://www.usebruno.com/) instead of this project!
+**TLDR: You probably want to use [bruno](https://www.usebruno.com/) instead of this project!**
 
 I created this fork because I am not yet ready to change to a different tool
 and loose all my saved configurations.
