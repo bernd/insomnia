@@ -5,11 +5,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernd/insomnia.git",
+    "url": "git+https://github.com/bernd/unetus.git",
     "directory": "packages/insomnia-smoke-test"
   },
   "bugs": {
-    "url": "https://github.com/bernd/insomnia/issues"
+    "url": "https://github.com/bernd/unetus/issues"
   },
   "version": "2023.5.8",
   "scripts": {
@@ -48,7 +48,7 @@
     "xvfb-maybe": "^0.2.1"
   },
   "description": "[![Playwright](https://img.shields.io/badge/playwright-blue.svg?style=for-the-badge&logo=playwright)](https://github.com/microsoft/playwright)",
-  "homepage": "https://github.com/bernd/insomnia#readme",
+  "homepage": "https://github.com/bernd/unetus#readme",
   "main": ".eslintrc.js",
   "directories": {
     "doc": "docs",

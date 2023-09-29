@@ -4,13 +4,13 @@
   "productName": "Unetus",
   "private": true,
   "description": "The Collaborative API Design Tool",
-  "homepage": "https://github.com/bernd/insomnia",
+  "homepage": "https://github.com/bernd/unetus",
   "bugs": {
-    "url": "https://github.com/bernd/insomnia/issues"
+    "url": "https://github.com/bernd/unetus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernd/insomnia.git",
+    "url": "git+https://github.com/bernd/unetus.git",
     "directory": "packages/insomnia"
   },
   "license": "MIT",

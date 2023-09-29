@@ -5,11 +5,11 @@
   "author": "Kong",
   "description": "Unetus is a cross-platform REST client, built on top of Electron.",
   "license": "MIT",
-  "repository": "https://github.com/bernd/insomnia",
+  "repository": "https://github.com/bernd/unetus",
   "bugs": {
-    "url": "https://github.com/bernd/insomnia/issues"
+    "url": "https://github.com/bernd/unetus/issues"
   },
-  "homepage": "https://github.com/bernd/insomnia#readme",
+  "homepage": "https://github.com/bernd/unetus#readme",
   "engines": {
     "node": ">=18.15 <20",
     "npm": ">=8.19.0"

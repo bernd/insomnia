@@ -8,11 +8,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernd/insomnia.git",
+    "url": "git+https://github.com/bernd/unetus.git",
     "directory": "packages/insomnia-inso"
   },
   "bugs": {
-    "url": "https://github.com/bernd/insomnia/issues"
+    "url": "https://github.com/bernd/unetus/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

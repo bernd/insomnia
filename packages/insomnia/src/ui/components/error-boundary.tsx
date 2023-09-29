@@ -64,7 +64,7 @@ class SingleErrorBoundary extends PureComponent<Props, State> {
           // @ts-expect-error -- TSCONVERSION
           message: (
             <p>
-              Failed to render {componentName}. Please report the error to <a href="https://github.com/bernd/insomnia/issues">our Github Issues</a>
+              Failed to render {componentName}. Please report the error to <a href="https://github.com/bernd/unetus/issues">our Github Issues</a>
             </p>
           ),
         });

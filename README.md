@@ -1,22 +1,22 @@
 # Unetus API Client
 
-[![license](https://img.shields.io/github/license/bernd/insomnia.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/bernd/unetus.svg)](LICENSE)
 
 Unetus is an open-source, cross-platform API client for GraphQL, REST, WebSockets, Server-sent events and gRPC.
 
-![Unetus API Client](https://raw.githubusercontent.com/bernd/insomnia/main/screenshots/main.png)
+![Unetus API Client](https://raw.githubusercontent.com/bernd/unetus/main/screenshots/main.png)
 
 Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
 
 ## Download
 
 Unetus is available for Mac, Windows, and Linux and can be downloaded
-from the [release page](https://github.com/bernd/insomnia/releases).
+from the [release page](https://github.com/bernd/unetus/releases).
 
 ## Bugs and Feature Requests
 
 Have a bug or a feature request? First, read the
-[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/bernd/insomnia/issues).
+[issue guidelines](CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/bernd/unetus/issues).
 
 ## Contributing
 
