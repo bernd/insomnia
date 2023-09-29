@@ -33,6 +33,7 @@ jobs:
         with:
           source: ./docs
           destination: ./docs/_site
+          verbose: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
