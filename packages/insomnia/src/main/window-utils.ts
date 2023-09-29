@@ -392,7 +392,7 @@ export function createWindow() {
         label: 'Show Software License',
         click: () => {
           // eslint-disable-next-line no-restricted-properties
-          shell.openExternal('https://insomnia.rest/license');
+          shell.openExternal('https://github.com/bernd/insomnia/blob/main/LICENSE');
         },
       },
     ],
