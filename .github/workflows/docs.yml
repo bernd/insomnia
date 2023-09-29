@@ -35,6 +35,7 @@ jobs:
           destination: ./docs/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+        path: docs/_site
 
   deploy:
     environment:
