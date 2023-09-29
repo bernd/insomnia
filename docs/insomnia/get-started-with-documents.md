@@ -5,9 +5,9 @@ category: "API Design"
 category-url: api-design
 ---
 
-Design Documents (also called Documents) hold specifications, API requests, and tests. They also offer the capability to sync with Git.
+Design Documents (also called Documents) hold specifications, API requests, and tests.
 
-If you're looking for information about Collections instead (which use [Version Control Sync](/insomnia/version-control-sync)), see [Request Collections](/insomnia/request-collections).
+If you're looking for information about Collections instead, see [Request Collections](/insomnia/request-collections).
 
 For this guide, [create an empty Document](/insomnia/design-documents) from your Dashboard. We've named our Document "petstore" as our example uses the [Pet Store API](https://petstore.swagger.io/).
 
@@ -114,8 +114,6 @@ _The Test tab displays Test Suites in the left-side panel, Tests in the center p
 To learn more about Unit Testing, see [Unit Testing](/insomnia/unit-testing).
 
 ## Next Steps
-
-To set up Git Sync, see [Sync with Git](/insomnia/git-sync/).
 
 To set up environments, see [Environment Variables](/insomnia/environment-variables).
 

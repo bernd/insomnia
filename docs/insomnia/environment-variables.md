@@ -43,7 +43,7 @@ A base environment is assigned to every workspace within Unetus and can be acces
 Sub environments are most commonly used for store variables related to production, staging, or development services. They are also sometimes used to defining variables for different users of a single app. Once sub environments exist, they can be activated via the environment dropdown.
 
 {:.alert .alert-primary}
-**Note**: Sub environments can be created as Private, meaning they will never be synced or exported.
+**Note**: Sub environments can be created as Private, meaning they will never be exported.
 
 ## Folder Environments
 Folder environments are a rarely used feature, but can be invaluable for specific use cases. You can access a folder's environment from the folder dropdown in the sidebar. Any variables defined at the folder-level will be available to all requests within that folder. These will also override any variables defined within a sub environment or base environment.

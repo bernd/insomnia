@@ -8,7 +8,7 @@ category-url: plugins
 Make a custom Unetus theme by creating an Unetus [plugin](/insomnia/introduction-to-plugins/).
 
 {:.alert .alert-primary}
-**Note**: To get started with some live examples, see our built-in [insomnia-plugin-themes](https://github.com/Kong/insomnia/tree/develop/plugins/insomnia-plugin-core-themes) module.
+**Note**: To get started with some live examples, see our built-in [insomnia-plugin-themes](https://github.com/bernd/unetus/tree/main/plugins/insomnia-plugin-core-themes) module.
 
 ## How to Build a Custom Theme
 

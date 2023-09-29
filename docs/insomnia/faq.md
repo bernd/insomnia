@@ -23,7 +23,7 @@ At this time, Unetus is 64-bit only.
 
 ### What software license does Unetus use?
 
-The Unetus desktop application and related software packages are open source software under the MIT license and the source code is available at [github.com/kong/insomnia](https://github.com/Kong/insomnia). The server-side software that backs the paid sync service is closed source.
+The Unetus desktop application and related software packages are open source software under the MIT license and the source code is available at [github.com/bernd/unetus](https://github.com/bernd/unetus). The server-side software that backs the paid sync service is closed source.
 
 ### Can I use Unetus for commercial use?
 

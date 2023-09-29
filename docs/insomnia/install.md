@@ -79,4 +79,4 @@ Here are some issues that have caused problems for Linux users in the past:
 
 ## Previous Unetus Versions
 
-To roll back to a previous Unetus version, download the version from [GitHub Releases](https://github.com/kong/insomnia/releases). This process is only intended for debugging and emergencies, as the app will try to update itself after it launches.
+To roll back to a previous Unetus version, download the version from [GitHub Releases](https://github.com/bernd/unetus/releases). This process is only intended for debugging and emergencies, as the app will try to update itself after it launches.

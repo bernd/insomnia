@@ -123,9 +123,3 @@ const item = body[0];
 
 console.log(item);
 ```
-
-### Run Unit Tests in CI
-
-Run unit tests in CI (like GitHub Actions or Azure DevOps) using [git sync](/insomnia/git-sync) and [Inso CLI](/inso-cli/cli-command-reference/inso-run-test) with the `inso run test` command.
-
-Learn more about [Continuous Integration](/inso-cli/continuous-integration/) in Unetus.

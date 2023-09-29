@@ -32,7 +32,7 @@ Also, you can paste copied cURL command straight to URL bar.
 The following outlines special resource IDs, used to map to data, and resource types, used to outline what's included and excluded from an export file.
 
 {:.alert .alert-primary}
-**Note**: The [Unetus Importers Package](https://github.com/bernd/unetus/tree/main/packages/insomnia/src/utils/importers) has support for migrating older export versions to the latest, as well as supporting external formats like HAR, Postman, Swagger/OpenAPI, and Curl. If you want to contribute new formats, feel free to submit a pull request to the [insomnia-importers](https://github.com/Kong/insomnia/tree/develop/packages/insomnia/src/utils/importers) on GitHub.
+**Note**: The [Unetus Importers Package](https://github.com/bernd/unetus/tree/main/packages/insomnia/src/utils/importers) has support for migrating older export versions to the latest, as well as supporting external formats like HAR, Postman, Swagger/OpenAPI, and Curl. If you want to contribute new formats, feel free to submit a pull request to the [insomnia-importers](https://github.com/bernd/unetus/tree/main/packages/insomnia/src/utils/importers) on GitHub.
 
 ### Special Resource IDs
 
@@ -49,4 +49,4 @@ Resource ID | Description
 
 We offer a variety of resource types. Resource types outline what is included and excluded from an export file. Some responses and metadata models aren't exported.
 
-See all resource types listed under [data.resources](https://github.com/Kong/insomnia/blob/7abde2a01700f587179941b3231fb1078fcb1e41/packages/insomnia-app/app/common/export.ts#L185-L198).
+See all resource types listed under [data.resources](https://github.com/bernd/unetus/blob/7abde2a01700f587179941b3231fb1078fcb1e41/packages/insomnia-app/app/common/export.ts#L185-L198).
