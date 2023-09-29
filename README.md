@@ -121,4 +121,5 @@ Unetus is a fork of the [Insomnia](https://github.com/Kong/insomnia) project.
 ## License
 
 [MIT](LICENSE) &copy; 2016-2023 [Insomnia](https://insomnia.rest)
+<br/>
 [MIT](LICENSE) &copy; Unetus Contributors
