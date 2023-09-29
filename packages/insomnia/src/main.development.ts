@@ -23,7 +23,7 @@ import * as models from './models/index';
 import type { Stats } from './models/stats';
 import type { ToastNotification } from './ui/components/toast';
 
-initializeSentry();
+//initializeSentry();
 
 // Handle potential auto-update
 if (checkIfRestartNeeded()) {
