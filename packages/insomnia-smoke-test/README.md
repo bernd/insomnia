@@ -1,12 +1,12 @@
-# Insomnia Smoke Tests
+# Unetus Smoke Tests
 
 [![Playwright](https://img.shields.io/badge/playwright-blue.svg?style=for-the-badge&logo=playwright)](https://github.com/microsoft/playwright)
 
-This project contains the smoke testing suite for Insomnia App.
+This project contains the smoke testing suite for Unetus App.
 
 > To find more about Inso CLI smoke tests, check [this document](CLI.md).
 
-- [Insomnia Smoke Tests](#insomnia-smoke-tests)
+- [Unetus Smoke Tests](#unetus-smoke-tests)
   - [Quick-start](#quick-start)
   - [Debugging and Developing Tests locally](#debugging-and-developing-tests-locally)
     - [Playwright VS Code extension](#playwright-vs-code-extension)
@@ -79,7 +79,7 @@ Alternatively you can upload this trace to [trace.playwright.dev](https://trace.
 You can enable additional logging to help you debug tests:
 
 - Playwright logs: `DEBUG=pw:api npm run test:smoke:dev`
-- Insomnia console logs: `DEBUG=pw:browser npm run test:smoke:dev`
+- Unetus console logs: `DEBUG=pw:browser npm run test:smoke:dev`
 - WebServer console logs: `DEBUG=pw:WebServer npm run test:smoke:dev`
 
 ## Reproducing CI Failures
