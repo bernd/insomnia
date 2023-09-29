@@ -209,8 +209,6 @@ li a, p a {
 }
 
 li.home-link {
-    list-style-type: none;
-
     &:nth-child(2){
         margin-top: 5px;
     }
@@ -284,47 +282,6 @@ p {
 
 #footer-copyright {
     float: right;
-}
-
-// Algolia Search
-
-/* Main dropdown wrapper */
-.ds-dropdown-menu {
-    width: 500px;
-    background-color: white;
-    color: black;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-@media (max-width:990px) {
-    .nav-link {
-        margin-left: 5px;
-    }
-    .form-inline {
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-}
-
-#main-search {
-    vertical-align: baseline;
-
-    &:hover {
-        background-color: $mid-purple;
-        border-color: $mid-purple;
-        color: white;
-    }
-}
-
-.col-md-7 {
-    h2, h3, h4 {
-        padding-top: 30px;
-    }
-}
-
-.form-inline {
-    margin-left: 20px;
 }
 
 // 404 page styling

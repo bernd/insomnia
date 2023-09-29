@@ -1,5 +1,4 @@
 title: Unetus Docs
-email: support@insomnia.rest
 description: >- # this means to ignore newlines until "baseurl:"
   Unetus Docs: Deliver high quality APIs through standards.
 baseurl: "/" # the subpath of your site, e.g. /blog
