@@ -104,10 +104,6 @@ You can use any editor you'd like, but make sure to have support/plugins for the
 - Start the compiler in watch mode: `npm run inso-start`
 - Run: `./packages/insomnia-inso/bin/inso -v`
 
-## Plugins
-
-Search for, discover, and install plugins from the Unetus [Plugin Hub](https://insomnia.rest/plugins/)!
-
 ## Community Projects
 
 - [Insomnia Documenter](https://github.com/jozsefsallai/insomnia-documenter) - Generate beautiful API documentation pages using the [documenter plugin](https://insomnia.rest/plugins/insomnia-plugin-documenter) or your Insomnia export file.
