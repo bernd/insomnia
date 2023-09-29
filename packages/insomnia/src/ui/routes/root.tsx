@@ -298,7 +298,7 @@ const Root = () => {
             />
           )}
           <div className="w-full h-full divide-x divide-solid divide-y divide-[--hl-md] grid-template-app-layout grid relative bg-[--color-bg]">
-            <header className="[grid-area:Header] grid grid-cols-3 items-center">
+            <header className="[grid-area:Header] grid grid-cols-1 items-center">
               <div className="flex gap-2 flex-nowrap items-center justify-center">
                 {workspaceData && (
                   <Fragment>
