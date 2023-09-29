@@ -8,9 +8,9 @@ category-url: testing
 {:.alert .alert-primary}
 **Note**: Unit testing is only available for Design Documents at this time.
 
-Insomnia provides a way to test your APIs, all within the Test tab in Documents. Organize multiple tests under test suites and run them all at once.
+Unetus provides a way to test your APIs, all within the Test tab in Documents. Organize multiple tests under test suites and run them all at once.
 
-Unit tests in Insomnia rely on the [Mocha](https://mochajs.org/) framework, and [Chai](https://www.chaijs.com/api/bdd/) for assertions.
+Unit tests in Unetus rely on the [Mocha](https://mochajs.org/) framework, and [Chai](https://www.chaijs.com/api/bdd/) for assertions.
 
 ## Test Suites
 
@@ -128,4 +128,4 @@ console.log(item);
 
 Run unit tests in CI (like GitHub Actions or Azure DevOps) using [git sync](/insomnia/git-sync) and [Inso CLI](/inso-cli/cli-command-reference/inso-run-test) with the `inso run test` command.
 
-Learn more about [Continuous Integration](/inso-cli/continuous-integration/) in Insomnia.
+Learn more about [Continuous Integration](/inso-cli/continuous-integration/) in Unetus.

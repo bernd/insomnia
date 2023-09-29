@@ -5,13 +5,13 @@ category: "Get Started"
 category-url: get-started
 ---
 
-Insomnia is an API client that enables you to send API requests outside of your terminal, and without writing any code. This means you don't have to write any finicky cURL requests or backend code to quickly retrieve information, push content to a database, and do anything else a given API enables you to do.
+Unetus is an API client that enables you to send API requests outside of your terminal, and without writing any code. This means you don't have to write any finicky cURL requests or backend code to quickly retrieve information, push content to a database, and do anything else a given API enables you to do.
 
 In this guide, we'll talk specifically about HTTP requests. This will give us common ground to send off a first request together. If you want to learn to send gRPC and GraphQL requests, see our more comprehensive [Requests documentation](/insomnia/requests).
 
 - [API Request Basics](#api-request-basics)
 - [Send a Request to mockbin](#send-a-request-to-mockbin)
-- [Send a Request to Insomnia Website](#send-a-request-to-insomnia-website)
+- [Send a Request to Unetus Website](#send-a-request-to-insomnia-website)
 
 ## API Request Basics
 
@@ -42,8 +42,8 @@ We're going to use [mockbin](https://mockbin.org/) to test out a `GET` request. 
    _Enter body text. This text will be returned when you make a GET request to this endpoint._
 
 1. Click **Create Bin**. You'll see a new page with a Bin Identifier.
-1. Click **Visit in Browser** and see your inputted **Body** text. The URL for this text is where we're going to send our request. Now let's do it through your Insomnia app.
-1. From your Insomnia dashboard, create a new Document or Collection.
+1. Click **Visit in Browser** and see your inputted **Body** text. The URL for this text is where we're going to send our request. Now let's do it through your Unetus app.
+1. From your Unetus dashboard, create a new Document or Collection.
 1. In a Document, select the **Debug** tab, then **New Request**. In a Collection, select **New Request**.
 1. In the **New Request** modal:
    1. Enter a request name like `Return mockbin message`.
@@ -55,22 +55,22 @@ We're going to use [mockbin](https://mockbin.org/) to test out a `GET` request. 
    ![Your mockbin message should appear in the Preview panel.](/assets/images/mockbin-return.png)
    _Once you've clicked Send on your request, you should see your mockbin message in the right-side Preview panel. Note that this screenshot shows a Document (not a Collection)._
 
-Congrats! You've now used Insomnia to send your first request to mockbin. For more complex request options, see our [Request documentation](/insomnia/requests).
+Congrats! You've now used Unetus to send your first request to mockbin. For more complex request options, see our [Request documentation](/insomnia/requests).
 
-## Send a Request to Insomnia Website
+## Send a Request to Unetus Website
 
-In this section, we're going to send a `GET` request to the Insomnia website. Feel free to interchange the Insomnia website URL with any web URL you'd like to return in the Preview panel.
+In this section, we're going to send a `GET` request to the Unetus website. Feel free to interchange the Unetus website URL with any web URL you'd like to return in the Preview panel.
 
-1. From your Insomnia dashboard, create a new Document or Collection.
+1. From your Unetus dashboard, create a new Document or Collection.
 1. In a Document, select the **Debug** tab, then **New Request**. In a Collection, select **New Request**.
 1. In the **New Request** modal:
-   1. Enter a request name like `Return Insomnia website`.
+   1. Enter a request name like `Return Unetus website`.
    1. Select a `GET` method from the dropdown.
    1. Click **Create**.
 1. Enter `insomnia.rest` in the request URL input.
 1. Click **Send**.
 
-    ![The Insomnia site should appear in the Preview right side panel.](/assets/images/request-insomnia-site.png)
-    _Once you've clicked Send on your request, you should see the Insomnia website in the right-side Preview panel. Note that this screenshot shows a Document (not a Collection)._
+    ![The Unetus site should appear in the Preview right side panel.](/assets/images/request-insomnia-site.png)
+    _Once you've clicked Send on your request, you should see the Unetus website in the right-side Preview panel. Note that this screenshot shows a Document (not a Collection)._
 
-Congrats! You've now used Insomnia to send your first request to the Insomnia website. For more complex request options, see our [Request documentation](/insomnia/requests).
+Congrats! You've now used Unetus to send your first request to the Unetus website. For more complex request options, see our [Request documentation](/insomnia/requests).

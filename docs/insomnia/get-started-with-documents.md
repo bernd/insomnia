@@ -31,7 +31,7 @@ The Design tab is the first of three top-level tabs in Documents. Import your sp
 
 ### Add Your Specification
 
-We're going to import a sample file that's built into Insomnia. Click on **start from an example** (above the **Import** button), which will populate the sample Pet Store API.
+We're going to import a sample file that's built into Unetus. Click on **start from an example** (above the **Import** button), which will populate the sample Pet Store API.
 
 The Pet Store specification will populate in the center panel of the Design tab. In this panel, you can directly edit the specification.
 
@@ -40,7 +40,7 @@ The Pet Store specification will populate in the center panel of the Design tab.
 
 ### Linting and Error Messaging
 
-All specifications imported into Insomnia are linted, and error messages will appear at the bottom of the center panel. If there are breaking errors, the right- and left-side panels will not render.
+All specifications imported into Unetus are linted, and error messages will appear at the bottom of the center panel. If there are breaking errors, the right- and left-side panels will not render.
 
 Error details include the error type, line number, and error message.
 

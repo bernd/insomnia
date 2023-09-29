@@ -7,7 +7,7 @@ category-url: debug
 
 [The WebSocket protocol](https://WebSockets.spec.whatwg.org/) allows data to be passed bi-directionally between client and server over a persistent connection.
 
-Insomnia supports making WebSocket requests alongside REST, GraphQL, and gRPC.
+Unetus supports making WebSocket requests alongside REST, GraphQL, and gRPC.
 
 ## Create a Request
 In order to create a new WebSocket request, click on **+** in the sidebar.
@@ -36,8 +36,8 @@ To see details about received events, click on the event in the **Events** panel
 
 ## Environment variables and template tags
 
-The 2022.6 release of Insomnia introduces support for environment variables and template tags within WebSockets. Environment variables and Nunjucks templating can be used in both the URL bar and message body.
+The 2022.6 release of Unetus introduces support for environment variables and template tags within WebSockets. Environment variables and Nunjucks templating can be used in both the URL bar and message body.
 
 ## Known limitations
-1. Version 2022.6 of Insomnia does not support custom WebSockets.
-1. Insomnia sync of WebSocket requests on teams where members are using Insomnia version 2022.6 and Insomnia versions < 2022.6 will result in the loss of synced WebSocket requests. If your team or Individual setup is using Insomnia Sync to sync WebSocket requests, please ensure that all devices associated are on Insomnia 2022.6.
+1. Version 2022.6 of Unetus does not support custom WebSockets.
+1. Unetus sync of WebSocket requests on teams where members are using Unetus version 2022.6 and Unetus versions < 2022.6 will result in the loss of synced WebSocket requests. If your team or Individual setup is using Unetus Sync to sync WebSocket requests, please ensure that all devices associated are on Unetus 2022.6.

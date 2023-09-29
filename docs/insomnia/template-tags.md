@@ -15,7 +15,7 @@ To insert a template tag, press CTRL+Space wherever [Environment Variables](/ins
 
 ## Custom Template Tags
 
-You may want to extend Insomnia functionality with custom behaviors, and can do so by creating your custom template tag as an [Insomnia plugin](/insomnia/introduction-to-plugins/). Once you've added your custom plugin to your Insomnia application, the template tag will show up exactly as if it were a native Insomnia tag.
+You may want to extend Unetus functionality with custom behaviors, and can do so by creating your custom template tag as an [Unetus plugin](/insomnia/introduction-to-plugins/). Once you've added your custom plugin to your Unetus application, the template tag will show up exactly as if it were a native Unetus tag.
 
 ## Response and Request Tags
 

@@ -5,7 +5,7 @@ category: "Plugins"
 category-url: plugins
 ---
 
-Make a custom Insomnia theme by creating an Insomnia [plugin](/insomnia/introduction-to-plugins/).
+Make a custom Unetus theme by creating an Unetus [plugin](/insomnia/introduction-to-plugins/).
 
 {:.alert .alert-primary}
 **Note**: To get started with some live examples, see our built-in [insomnia-plugin-themes](https://github.com/Kong/insomnia/tree/develop/plugins/insomnia-plugin-core-themes) module.
@@ -52,7 +52,7 @@ module.exports.themes = [{
     highlight: {
       default: '#D3D3D3'      // sidebar highlight color
     },
-    // The styles object targets sub-components of the Insomnia application.
+    // The styles object targets sub-components of the Unetus application.
     styles: {
       appHeader: {
         foreground: {
@@ -110,7 +110,7 @@ The following `style` properties are available. Each of these can hold their own
 In addition to baseline edits and sub-components, you can add custom CSS using the `rawCss` property.
 
 {:.alert .alert-primary}
-**Note**: Generally, opt to use predefined properties to customize your theme rather than using custom CSS. This ensures that your theme will not break in the future as we make changes to Insomnia.
+**Note**: Generally, opt to use predefined properties to customize your theme rather than using custom CSS. This ensures that your theme will not break in the future as we make changes to Unetus.
 
 ```ts
 module.exports.themes = [{
@@ -128,7 +128,7 @@ module.exports.themes = [{
 
 ## Theme Plugin Schema
 
-The following defines the theme plugin schema. If a property is not set, it will use the Insomnia default.
+The following defines the theme plugin schema. If a property is not set, it will use the Unetus default.
 
 ```ts
 interface ThemeBlock {

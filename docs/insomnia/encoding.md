@@ -5,7 +5,7 @@ category: "Built-In Features"
 category-url: built-in-features
 ---
 
-Insomnia automatically encodes special characters in request URLs. Auto-encoding can cause issues for some users who want to send non-encoded special characters. 
+Unetus automatically encodes special characters in request URLs. Auto-encoding can cause issues for some users who want to send non-encoded special characters. 
 
 Check the exact request URL sent using the **Timeline** tab. 
 

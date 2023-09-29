@@ -5,7 +5,7 @@ category: "API Design"
 category-url: api-design
 ---
 
-Insomnia has auto-detection for GraphQL APIs documented through OpenAPI. To enable auto-detection your GraphQL API must be documented with the following values before generating debugging requests:
+Unetus has auto-detection for GraphQL APIs documented through OpenAPI. To enable auto-detection your GraphQL API must be documented with the following values before generating debugging requests:
 
 * Path must be `/graphql`
 * Method must be POST

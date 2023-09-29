@@ -5,7 +5,7 @@ category: "Requests and Responses"
 category-url: requests-and-responses
 ---
 
-Insomnia is most commonly used for displaying text content like JSON and XML, and it also has the ability to display rich content in the following formats:
+Unetus is most commonly used for displaying text content like JSON and XML, and it also has the ability to display rich content in the following formats:
 
 * HTML
 * Images
@@ -44,7 +44,7 @@ $['hydra:member'][0]['`@id']
 
 ## Save to File
 
-If the response is too large, or you want to save or parse the response outside of Insomnia, you can save the raw response directly to a file. To do this, click the **Preview** dropdown menu then **Save Raw Response**.
+If the response is too large, or you want to save or parse the response outside of Unetus, you can save the raw response directly to a file. To do this, click the **Preview** dropdown menu then **Save Raw Response**.
 
 ## Access Response History
 

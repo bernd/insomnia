@@ -1,29 +1,26 @@
 ---
 layout: article-detail
-title:  Insomnia Configuration File
+title:  Unetus Configuration File
 category: "Get Started"
 category-url: get-started
 ---
 
-In addition to the Insomnia Preferences available through the UI, computer admins can configure the Insomnia application for other users through an Insomnia Configuration File.
+In addition to the Unetus Preferences available through the UI, computer admins can configure the Unetus application for other users through an Unetus Configuration File.
 
-The Insomnia Configuration File enables computer admins to alter some settings and UI components when they set up regulated local environments. Admins may find this useful to overwrite configurations that users cannot change.
-
-{:.alert .alert-primary}
-**Note**: This feature is not related to [team functionality](/insomnia/team-collaboration), so team admins won't be able to control settings for the team's members (unless they also happen to be computer admins).
+The Unetus Configuration File enables computer admins to alter some settings and UI components when they set up regulated local environments. Admins may find this useful to overwrite configurations that users cannot change.
 
 ## Configuration File Location
 
-The Insomnia application does not automatically come with an Insomnia Configuration File. Users or admins will create a file specifically called `insomnia.config.json` in one of two locations:
+The Unetus application does not automatically come with an Unetus Configuration File. Users or admins will create a file specifically called `insomnia.config.json` in one of two locations:
 - The [app data directory](/insomnia/application-data)
-- The same directory as `insomnia.exe` when running the portable Windows version. This location takes precedence if there is also an Insomnia Configuration File in the app data directory.
+- The same directory as `insomnia.exe` when running the portable Windows version. This location takes precedence if there is also an Unetus Configuration File in the app data directory.
 
 {:.alert .alert-primary}
-**Note**: In order for the Insomnia Configuration File to apply as expected, ensure that users are unable to modify the file or run the portable `insomnia.exe` file from another location on their computer.
+**Note**: In order for the Unetus Configuration File to apply as expected, ensure that users are unable to modify the file or run the portable `insomnia.exe` file from another location on their computer.
 
 ## Configuration File Contents
 
-The Insomnia Configuration File must include the property `insomniaConfig` with the value `1.0.0`. The `settings` object can be empty.
+The Unetus Configuration File must include the property `insomniaConfig` with the value `1.0.0`. The `settings` object can be empty.
 
 The following example shows all of the [`settings`](/insomnia/insomnia-config-file/#settings) options available.
 
@@ -50,8 +47,8 @@ The following are the settings you're allowed to configure.
 {:.table .table-striped}
 Parameter | Data Type | Default | Description
 --------- | --------- | -------| -----------
-`allowNotificationRequests` | Boolean | `true` | If `false`, Insomnia won’t send requests to the api.insomnia.rest/notifications endpoint. This can have effects like the users won’t be notified in-app about billing issues and they won’t receive tips about app usage.
-`disableUpdateNotification` | Boolean | `false` | If `true`, Insomnia won’t show a notification when new updates are available. Users can still check for updates in Preferences.
-`enableAnalytics` | Boolean | `false` | If `true`, Insomnia will send anonymous data about features and plugins used.
-`disablePaidFeatureAds` | Boolean | `false` | If `true`, Insomnia won’t show any visual elements that recommend plan upgrades.
-`incognitoMode` | Boolean | `false` | If `true`, Insomnia won’t make any network requests other than the requests you ask it to send. This configuration controls and overwrites any existing settings for  **Send Usage Stats** and **Allow Notification Requests** by disabling both.
+`allowNotificationRequests` | Boolean | `true` | If `false`, Unetus won’t send requests to the api.insomnia.rest/notifications endpoint. This can have effects like the users won’t be notified in-app about billing issues and they won’t receive tips about app usage.
+`disableUpdateNotification` | Boolean | `false` | If `true`, Unetus won’t show a notification when new updates are available. Users can still check for updates in Preferences.
+`enableAnalytics` | Boolean | `false` | If `true`, Unetus will send anonymous data about features and plugins used.
+`disablePaidFeatureAds` | Boolean | `false` | If `true`, Unetus won’t show any visual elements that recommend plan upgrades.
+`incognitoMode` | Boolean | `false` | If `true`, Unetus won’t make any network requests other than the requests you ask it to send. This configuration controls and overwrites any existing settings for  **Send Usage Stats** and **Allow Notification Requests** by disabling both.

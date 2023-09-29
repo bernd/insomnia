@@ -5,7 +5,7 @@ category: "Requests and Responses"
 category-url: requests-and-responses
 ---
 
-Insomnia allows chaining requests, or the ability to extract values from the responses of other requests. Values are passed using [Template Tags](/insomnia/template-tags) and [Environment Variables](/insomnia/environment-variables).
+Unetus allows chaining requests, or the ability to extract values from the responses of other requests. Values are passed using [Template Tags](/insomnia/template-tags) and [Environment Variables](/insomnia/environment-variables).
 
 The following are common use cases for chaining requests:
 

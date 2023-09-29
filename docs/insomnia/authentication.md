@@ -5,7 +5,7 @@ category: "Built-In Features"
 category-url: built-in-features
 ---
 
-Insomnia provides a number of authentication helpers to make it trivial to interface with the most common authentication standards. Choose your standard, fill in the prompted fields, and Insomnia will take care of the rest.
+Unetus provides a number of authentication helpers to make it trivial to interface with the most common authentication standards. Choose your standard, fill in the prompted fields, and Unetus will take care of the rest.
 
 ## Authentication Basics
 
@@ -16,7 +16,7 @@ _Select your authentication type from the Auth dropdown menu._
 
 ## Supported Authentication Types
 
-Currently, Insomnia supports the following authentication standards.
+Currently, Unetus supports the following authentication standards.
 
 ### Basic Auth
 

@@ -5,11 +5,11 @@ category: "Plugins"
 category-url: plugins
 ---
 
-This document is a Context object reference. Context methods provide helpers for plugins to communicate, interact, and integrate with Insomnia. For example, these can be used to show an alert or alter a request header.
+This document is a Context object reference. Context methods provide helpers for plugins to communicate, interact, and integrate with Unetus. For example, these can be used to show an alert or alter a request header.
 
 ## context.request
 
-The request context contains helpers to interact with an Insomnia request.
+The request context contains helpers to interact with an Unetus request.
 
 ```ts
 interface RequestContext {
@@ -109,7 +109,7 @@ module.exports.requestHooks = [
 
 ## context.response
 
-The response context contains helpers to interact with an Insomnia response.
+The response context contains helpers to interact with an Unetus response.
 
 ```ts
 interface ResponseContext {
@@ -237,7 +237,7 @@ interface AppContext {
 
 ## context.data
 
-The data context contains helpers related to importing and exporting Insomnia workspaces.
+The data context contains helpers related to importing and exporting Unetus workspaces.
 
 ```ts
 interface ImportOptions {

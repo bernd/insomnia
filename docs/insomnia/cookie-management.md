@@ -5,7 +5,7 @@ category: "Built-In Features"
 category-url: built-in-features
 ---
 
-Insomnia automatically stores cookies from every response and sends them with requests when needed (just like a web browser would).
+Unetus automatically stores cookies from every response and sends them with requests when needed (just like a web browser would).
 
 ## Manage Cookies
 
@@ -23,11 +23,11 @@ _Access the cookie settings in an individual request dropdown menu._
 
 ### Send Cookies Automatically
 
-Enabling this option will cause Insomnia to automatically send cookies with the request via the Cookie header.
+Enabling this option will cause Unetus to automatically send cookies with the request via the Cookie header.
 
 ### Store Cookies Automatically
 
-Enabling this option will cause Insomnia to save any cookies received via the Set-Cookie header automatically.
+Enabling this option will cause Unetus to save any cookies received via the Set-Cookie header automatically.
 
 ## Reference Cookie Values
 

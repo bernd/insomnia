@@ -22,7 +22,7 @@ _The Manage Environments modal allows you to access and edit your base and sub e
 
 ## Referencing Environment Variables
 
-Environment variables can be referenced in (almost) any text input within the Insomnia application. There are two ways to do this:
+Environment variables can be referenced in (almost) any text input within the Unetus application. There are two ways to do this:
 
 1. Summon the autocomplete dropdown by pressing Control+Space
 2. Allow the autocomplete to show automatically as you type
@@ -37,7 +37,7 @@ Once a variable is selected, it will be displayed with a colored placeholder. Cl
 
 ## Base Environment
 
-A base environment is assigned to every workspace within Insomnia and can be accessed via the environment manager. Variables in the base environment are available throughout the entire workspace, even if other environments are defined. A common use for the base environment is to store default variables that will not change across production, staging, or development services such as resource names, languages, sample data, etc.
+A base environment is assigned to every workspace within Unetus and can be accessed via the environment manager. Variables in the base environment are available throughout the entire workspace, even if other environments are defined. A common use for the base environment is to store default variables that will not change across production, staging, or development services such as resource names, languages, sample data, etc.
 
 ## Sub Environments
 Sub environments are most commonly used for store variables related to production, staging, or development services. They are also sometimes used to defining variables for different users of a single app. Once sub environments exist, they can be activated via the environment dropdown.

@@ -5,7 +5,7 @@ category: "Get Started"
 category-url: get-started
 ---
 
-Insomnia supports importing and exporting. Currently, the supported import formats are Insomnia, Postman v2, HAR, OpenAPI (versions 3.0, 3.1), Swagger, WSDL, and cURL.
+Unetus supports importing and exporting. Currently, the supported import formats are Insomnia, Postman v2, HAR, OpenAPI (versions 3.0, 3.1), Swagger, WSDL, and cURL.
 
 ## Export Data
 
@@ -32,7 +32,7 @@ Also, you can paste copied cURL command straight to URL bar.
 The following outlines special resource IDs, used to map to data, and resource types, used to outline what's included and excluded from an export file.
 
 {:.alert .alert-primary}
-**Note**: The [Insomnia Importers Package](https://github.com/Kong/insomnia/tree/develop/packages/insomnia/src/utils/importers) has support for migrating older export versions to the latest, as well as supporting external formats like HAR, Postman, Swagger/OpenAPI, and Curl. If you want to contribute new formats, feel free to submit a pull request to the [insomnia-importers](https://github.com/Kong/insomnia/tree/develop/packages/insomnia/src/utils/importers) on GitHub.
+**Note**: The [Unetus Importers Package](https://github.com/bernd/unetus/tree/main/packages/insomnia/src/utils/importers) has support for migrating older export versions to the latest, as well as supporting external formats like HAR, Postman, Swagger/OpenAPI, and Curl. If you want to contribute new formats, feel free to submit a pull request to the [insomnia-importers](https://github.com/Kong/insomnia/tree/develop/packages/insomnia/src/utils/importers) on GitHub.
 
 ### Special Resource IDs
 

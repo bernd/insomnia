@@ -5,11 +5,11 @@ category: "Built-In Features"
 category-url: built-in-features
 ---
 
-Client certificates are used by some APIs to as a means of authentication. Insomnia supports assigning a client certificate to a specific domain name and will automatically use them automatically whenever a request to that domain is sent.
+Client certificates are used by some APIs to as a means of authentication. Unetus supports assigning a client certificate to a specific domain name and will automatically use them automatically whenever a request to that domain is sent.
 
 ## Import Certificates
 
-Insomnia supports `PFX` (Mac) and `PEM` (Windows and Linux) certificates. 
+Unetus supports `PFX` (Mac) and `PEM` (Windows and Linux) certificates. 
 
 To import a new certificate, click **Document Settings** or **Collection Settings** then the **Client Certificates** tab. 
 

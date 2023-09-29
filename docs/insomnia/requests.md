@@ -5,7 +5,7 @@ category: "Requests and Responses"
 category-url: requests-and-responses
 ---
 
-Insomnia supports sending requests via [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), [gRPC](https://grpc.io/docs), [GraphQL](https://graphql.org), and [WebSockets](https://websockets.spec.whatwg.org/).
+Unetus supports sending requests via [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), [gRPC](https://grpc.io/docs), [GraphQL](https://graphql.org), and [WebSockets](https://websockets.spec.whatwg.org/).
 
 To learn how to repurpose parts of your request, see
 [Environment Variables](/insomnia/environment-variables).
@@ -15,7 +15,7 @@ To learn how to repurpose parts of your request, see
 Send an HTTP method request in a Document or Collection. The following instructions
 assume you're starting with an empty Document or Collection.
 
-In addition to standard HTTP methods, Insomnia supports [Custom HTTP Methods](#custom-http-methods).
+In addition to standard HTTP methods, Unetus supports [Custom HTTP Methods](#custom-http-methods).
 
 1. In a Document, select the **Debug** tab, then **New Request**. In a Collection, select **New Request**.
 1. From the **New Request** modal:
@@ -62,7 +62,7 @@ assume you're starting with an empty Document or Collection.
    1. Select **gRPC** from the dropdown.
 1. You'll be taken to a **Select Proto File** modal.
 1. Click **Add Directory** or **Add Proto File**.
-1. Add your directory or upload your Proto File. Insomnia will automatically detect the streaming types and modify the first tab as such.
+1. Add your directory or upload your Proto File. Unetus will automatically detect the streaming types and modify the first tab as such.
 1. Enter your API URL and click **Start**.
 
 See [gRPC Request Options](#grpc-request-options) to customize your request.

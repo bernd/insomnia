@@ -7,7 +7,7 @@ category-url: debug
 
 With the growing emergence of IoT, microservices and mesh networks, APIs need to be more performant and scalable than ever before. This has given rise to the growing adoption of [gRPC](https://grpc.io/), a high-performance, open source, universal RPC framework developed at Google.
 
-Insomnia supports making gRPC requests alongside REST, GraphQL, and WebSockets.
+Unetus supports making gRPC requests alongside REST, GraphQL, and WebSockets.
 
 ## Create a Request
 
@@ -21,7 +21,7 @@ You should now see a request in the sidebar, and on clicking **Select Method** y
 
 ## Proto File Management
 
-In the current iteration, Insomnia allows you to upload your proto file or collection of proto files (a directory) to a workspace and consume it with multiple requests. Insomnia will ingest the contents of your proto file(s), and it will not be linked with the source file on your file-system. This means, if you add your proto file into Insomnia, and then change the source file, you will need to re-upload it.
+In the current iteration, Unetus allows you to upload your proto file or collection of proto files (a directory) to a workspace and consume it with multiple requests. Unetus will ingest the contents of your proto file(s), and it will not be linked with the source file on your file-system. This means, if you add your proto file into Unetus, and then change the source file, you will need to re-upload it.
 
 As such, a proto file also cannot import a different proto file from your file system, because the relative path link will be lost. You can upload a directory which contains multiple proto files, and they can import other proto files within that directory structure (see below). In future iterations we intend to extend the ways in which you can input a proto file, including keeping in sync with the file system, loading from a network location.
 
@@ -39,11 +39,11 @@ Click **Add Directory** to add multiple at once.
 
 ### Use gRPC Server Reflection
 
-**Available in Insomnia version 2022.7.0 and later.**
+**Available in Unetus version 2022.7.0 and later.**
 
-Insomnia supports [gRPC Server Reflection](https://github.com/grpc/grpc/blob/master/doc/server-reflection.md) as of version 2022.7.0.
+Unetus supports [gRPC Server Reflection](https://github.com/grpc/grpc/blob/master/doc/server-reflection.md) as of version 2022.7.0.
 
-If the server you are sending requests to supports gRPC Server Reflection, you can use this as an alternative to adding local Protobuf files to Insomnia. To use reflection, create a new gRPC request and enter the [service host](#tlsssl) (e.g., `grpcs://grpcb.in:9001`). Next, click on the button to the right with a sync icon (it shows "Click to use server reflection" on hover). If reflection is working properly, you should be able to click "Select Method" and choose an RPC from the dropdown which is populated with a list of RPCs from the reflection server. Finally, add a request body and click "Send".
+If the server you are sending requests to supports gRPC Server Reflection, you can use this as an alternative to adding local Protobuf files to Unetus. To use reflection, create a new gRPC request and enter the [service host](#tlsssl) (e.g., `grpcs://grpcb.in:9001`). Next, click on the button to the right with a sync icon (it shows "Click to use server reflection" on hover). If reflection is working properly, you should be able to click "Select Method" and choose an RPC from the dropdown which is populated with a list of RPCs from the reflection server. Finally, add a request body and click "Send".
 
 ### Rename a Local Proto File
 
@@ -59,7 +59,7 @@ Click on the delete button. You will be prompted with a confirmation message ind
 
 ## Make requests
 
-Insomnia supports all four RPC types defined by gRPC. These are: [Unary](https://grpc.io/docs/what-is-grpc/core-concepts/#unary-rpc), [Client Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#client-streaming-rpc), [Server Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#server-streaming-rpc), and [Bidirectional Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#bidirectional-streaming-rpc). The following examples use [hello.proto](https://github.com/moul/pb/blob/master/hello/hello.proto) from grpcb.in.
+Unetus supports all four RPC types defined by gRPC. These are: [Unary](https://grpc.io/docs/what-is-grpc/core-concepts/#unary-rpc), [Client Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#client-streaming-rpc), [Server Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#server-streaming-rpc), and [Bidirectional Streaming](https://grpc.io/docs/what-is-grpc/core-concepts/#bidirectional-streaming-rpc). The following examples use [hello.proto](https://github.com/moul/pb/blob/master/hello/hello.proto) from grpcb.in.
 
 ### Unary
 
@@ -94,7 +94,7 @@ Any time a request has been sent (unary, server streaming) or a stream is open (
 
 ## TLS/SSL
 
-Often a gRPC endpoint will be secured by TLS, and Insomnia will allow you to connect to these endpoints using simple SSL. The ability to provide custom certificates is coming in the future.
+Often a gRPC endpoint will be secured by TLS, and Unetus will allow you to connect to these endpoints using simple SSL. The ability to provide custom certificates is coming in the future.
 
 In order to enable TLS, prefix the host with `grpcs://`.
 
@@ -106,11 +106,11 @@ Making a request to `grpcs://grpcb.in:9001` will succeed.
 
 ## Environment Variables and Template Tags
 
-The 2021.1 release of Insomnia introduces support for environment variables and template tags within gRPC. Environment variables and Nunjucks templating can be used in both the URL bar and message body.
+The 2021.1 release of Unetus introduces support for environment variables and template tags within gRPC. Environment variables and Nunjucks templating can be used in both the URL bar and message body.
 
 ## Known limitations
 
-As of version 2021.1, gRPC in Insomnia does not include:
+As of version 2021.1, gRPC in Unetus does not include:
 
 * Support for running gRPC requests in unit tests
 * Support for request chaining
