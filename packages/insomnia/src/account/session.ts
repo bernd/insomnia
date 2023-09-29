@@ -171,7 +171,7 @@ export function getFullName() {
 
 /** Check if we (think) we have a session */
 export function isLoggedIn() {
-  return !!getCurrentSessionId();
+  return false;
 }
 
 /** Log out and delete session data */
