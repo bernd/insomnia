@@ -37,7 +37,6 @@ export function init(): BaseSettings {
     editorIndentWithTabs: true,
     editorKeyMap: 'default',
     editorLineWrapping: true,
-    enableAnalytics: false,
     showVariableSourceAndValue: false,
     filterResponsesByEnv: false,
     followRedirects: true,

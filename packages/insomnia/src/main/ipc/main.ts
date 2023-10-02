@@ -7,7 +7,6 @@ import { oas } from '@stoplight/spectral-rulesets';
 import { app, BrowserWindow, ipcMain, IpcRendererEvent, shell } from 'electron';
 import fs from 'fs';
 
-import { SegmentEvent, trackPageView, trackSegmentEvent } from '../analytics';
 import { authorizeUserInWindow } from '../authorizeUserInWindow';
 import { backup, restoreBackup } from '../backup';
 import { insomniaFetch } from '../insomniaFetch';
@@ -37,8 +36,6 @@ export interface MainBridgeAPI {
   webSocket: WebSocketBridgeAPI;
   grpc: gRPCBridgeAPI;
   curl: CurlBridgeAPI;
-  trackSegmentEvent: (options: { event: string; properties?: Record<string, unknown> }) => void;
-  trackPageView: (options: { name: string }) => void;
   axiosRequest: typeof axiosRequest;
   insomniaFetch: typeof insomniaFetch;
   showContextMenu: (options: { key: string }) => void;
@@ -81,13 +78,6 @@ export function registerMainHandlers() {
 
   ipcMain.on('cancelCurlRequest', (_, requestId: string): void => {
     cancelCurlRequest(requestId);
-  });
-
-  ipcMain.on('trackSegmentEvent', (_, options: { event: SegmentEvent; properties?: Record<string, unknown> }): void => {
-    trackSegmentEvent(options.event, options.properties);
-  });
-  ipcMain.on('trackPageView', (_, options: { name: string }): void => {
-    trackPageView(options.name);
   });
 
   ipcMain.handle('installPlugin', (_, lookupName: string) => {
