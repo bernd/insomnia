@@ -14,7 +14,6 @@ import { registergRPCHandlers } from './main/ipc/grpc';
 import { registerMainHandlers } from './main/ipc/main';
 import { registerCurlHandlers } from './main/network/curl';
 import { registerWebSocketHandlers } from './main/network/websocket';
-import { sentryWatchAnalyticsEnabled } from './main/sentry';
 import { checkIfRestartNeeded } from './main/squirrel-startup';
 import * as updates from './main/updates';
 import * as windowUtils from './main/window-utils';
@@ -89,7 +88,6 @@ app.on('ready', async () => {
   // Init some important things first
   await database.init(models.types());
   await _createModelInstances();
-  sentryWatchAnalyticsEnabled();
   windowUtils.init();
   await _launchApp();
 
