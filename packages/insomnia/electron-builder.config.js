@@ -1,4 +1,4 @@
-const BINARY_PREFIX = 'Unetus.Core';
+const BINARY_PREFIX = 'Unetus';
 
 // NOTE: USE_HARD_LINKS
 // https://github.com/electron-userland/electron-builder/issues/4594#issuecomment-574653870
