@@ -47,7 +47,6 @@ import {
   CodeEditorHandle,
 } from '../components/codemirror/code-editor';
 import { DesignEmptyState } from '../components/design-empty-state';
-import { WorkspaceSyncDropdown } from '../components/dropdowns/workspace-sync-dropdown';
 import { Icon } from '../components/icon';
 import { InsomniaAI } from '../components/insomnia-ai-icon';
 import { SidebarLayout } from '../components/sidebar-layout';
@@ -835,7 +834,6 @@ const Design: FC = () => {
               </div>
             )}
           </div>
-          <WorkspaceSyncDropdown />
         </div>
       }
       renderPaneTwo={isSpecPaneOpen && <SwaggerUIDiv text={apiSpec.contents} />}

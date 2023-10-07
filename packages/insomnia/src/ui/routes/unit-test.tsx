@@ -23,11 +23,10 @@ import {
 import * as models from '../../models';
 import type { UnitTestSuite } from '../../models/unit-test-suite';
 import { invariant } from '../../utils/invariant';
-import { WorkspaceSyncDropdown } from '../components/dropdowns/workspace-sync-dropdown';
 import { EditableInput } from '../components/editable-input';
 import { ErrorBoundary } from '../components/error-boundary';
 import { Icon } from '../components/icon';
-import { SidebarFooter, SidebarLayout } from '../components/sidebar-layout';
+import { SidebarLayout } from '../components/sidebar-layout';
 import { TestRunStatus } from './test-results';
 import TestSuiteRoute from './test-suite';
 
@@ -219,9 +218,6 @@ const TestRoute: FC = () => {
               }}
             </GridList>
           </div>
-          <SidebarFooter>
-            <WorkspaceSyncDropdown />
-          </SidebarFooter>
         </ErrorBoundary>
       }
       renderPaneOne={
